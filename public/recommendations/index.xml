@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>2026 稳定机场推荐指南 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/recommendations/</link>
+		<description>Recent content in 2026 稳定机场推荐指南 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/recommendations/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>备用机场怎么选？一主一备网络冗余最佳实践</title>
+				<link>https://jctjzhinan.xyz/recommendations/backup-airports/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/backup-airports/</guid>
+				<description>主线路遭遇故障或断连时的双机场保活方案。</description>
+			</item>
+			<item>
+				<title>大流量重度用户机场推荐：TB 级高清影音首选</title>
+				<link>https://jctjzhinan.xyz/recommendations/heavy-user-airports/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/heavy-user-airports/</guid>
+				<description>满足海量下载与多人共享的大流量套餐矩阵。</description>
+			</item>
+			<item>
+				<title>按月付费机场推荐：灵活试用无跑路风险</title>
+				<link>https://jctjzhinan.xyz/recommendations/monthly-pay-airports/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/monthly-pay-airports/</guid>
+				<description>拒绝高额长期绑定，月付模式性价比节点挑选。</description>
+			</item>
+	</channel>
+</rss>

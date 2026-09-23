@@ -1,0 +1,110 @@
+{
+  "profileVersion": "2026.1.0",
+  "siteTopic": "机场推荐与客户端配置指南",
+  "domain": "jctjzhinan.xyz",
+  "brandName": "机场推荐指南",
+  "brandSubTitle": "JCTJ Guide",
+  "slogan": "小白必备的节点选购与客户端配置指南 · 稳定、透明、少踩坑",
+  "primaryKeywords": [
+    "机场推荐",
+    "性价比机场",
+    "Clash 机场推荐",
+    "机场测评",
+    "节点推荐",
+    "机场优惠码"
+  ],
+  "secondaryKeywords": [
+    "机场排行榜",
+    "便宜机场",
+    "稳定机场",
+    "IEPL专线机场",
+    "AI 机场推荐",
+    "流媒体解锁节点",
+    "订阅转换"
+  ],
+  "longTailKeywords": [
+    "2026 稳定机场挑选指南",
+    "Windows Clash Verge 配置教程",
+    "Mac Sing-box 订阅导入",
+    "iPhone Shadowrocket 使用教程",
+    "ChatGPT 专线梯子推荐",
+    "外贸低延迟不跳IP节点",
+    "TUN模式无网络排错"
+  ],
+  "heroKeywords": [
+    "机场推荐",
+    "性价比机场推荐",
+    "Clash 机场推荐",
+    "机场测评",
+    "机场节点推荐",
+    "便宜机场",
+    "稳定机场",
+    "AI 机场推荐",
+    "机场订阅",
+    "机场优惠码"
+  ],
+  "footerKeywords": [
+    "机场推荐",
+    "2026 机场推荐",
+    "性价比机场",
+    "Clash 机场测评",
+    "机场节点推荐",
+    "便宜机场",
+    "稳定机场",
+    "AI 机场推荐",
+    "机场订阅",
+    "机场优惠码",
+    "月付机场推荐"
+  ],
+  "navigationItems": [
+    {
+      "label": "首页",
+      "url": "/",
+      "type": "home"
+    },
+    {
+      "label": "新手选机场指南",
+      "url": "/guide/",
+      "type": "guide"
+    },
+    {
+      "label": "客户端配置教程",
+      "url": "/clients/",
+      "type": "clients"
+    },
+    {
+      "label": "场景专线评测",
+      "url": "/scenarios/",
+      "type": "scenarios"
+    },
+    {
+      "label": "常见问题与 FAQ",
+      "url": "/faq/",
+      "type": "faq"
+    },
+    {
+      "label": "服务状态核验",
+      "url": "/status/",
+      "type": "status"
+    }
+  ],
+  "faqKeywordCount": 100,
+  "faqClusters": [
+    "选型与推荐",
+    "Clash 客户端",
+    "SS 协议",
+    "Trojan 协议",
+    "梯子服务与风险",
+    "节点与地区",
+    "套餐与价格",
+    "多设备与订阅",
+    "故障排障"
+  ],
+  "protectedBrandTerms": [
+    "全球云",
+    "飞猫云",
+    "暮光加速",
+    "微风网络"
+  ],
+  "inactiveKeywords": []
+}

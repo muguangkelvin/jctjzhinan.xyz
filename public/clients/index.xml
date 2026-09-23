@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Clients on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/clients/</link>
+		<description>Recent content in Clients on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/clients/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>iOS iPhone 小火箭 Shadowrocket 安装与节点导入</title>
+				<link>https://jctjzhinan.xyz/clients/shadowrocket-ios-setup/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/clients/shadowrocket-ios-setup/</guid>
+				<description>苹果 iOS 节点导入、分流规则设置与常见连接报错排错。</description>
+			</item>
+			<item>
+				<title>Sing-box 极速入门：订阅转换与全平台配置指引</title>
+				<link>https://jctjzhinan.xyz/clients/sing-box-subscription-convert/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/clients/sing-box-subscription-convert/</guid>
+				<description>新一代通用网络工具 Sing-box 从导入到规则修改教程。</description>
+			</item>
+			<item>
+				<title>Surge 高级规则分流与 TUN 模式排错手把手教程</title>
+				<link>https://jctjzhinan.xyz/clients/surge-rules-guide/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/clients/surge-rules-guide/</guid>
+				<description>Mac 与 iOS 端顶级代理工具 Surge 进阶配置与语法说明。</description>
+			</item>
+			<item>
+				<title>零基础教程：Windows/Mac 端 Clash Verge Rev 配置指南</title>
+				<link>https://jctjzhinan.xyz/clients/clash-verge-rev-tutorial/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/clients/clash-verge-rev-tutorial/</guid>
+				<description>从下载安装、订阅导入到开启 TUN 模式全流程手把手图文实操。</description>
+			</item>
+	</channel>
+</rss>

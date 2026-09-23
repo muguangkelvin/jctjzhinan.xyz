@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>备用机场 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/tags/%E5%A4%87%E7%94%A8%E6%9C%BA%E5%9C%BA/</link>
+		<description>Recent content in 备用机场 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/tags/%E5%A4%87%E7%94%A8%E6%9C%BA%E5%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>备用机场怎么选？一主一备网络冗余最佳实践</title>
+				<link>https://jctjzhinan.xyz/recommendations/backup-airports/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/backup-airports/</guid>
+				<description>主线路遭遇故障或断连时的双机场保活方案。</description>
+			</item>
+			<item>
+				<title>备用机场有必要购买吗？怎么搭配最省钱？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-004/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-004/</guid>
+				<description>一主一备最佳网络冗余配置建议。</description>
+			</item>
+	</channel>
+</rss>

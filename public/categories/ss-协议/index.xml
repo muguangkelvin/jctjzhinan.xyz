@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>SS 协议 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/categories/ss-%E5%8D%8F%E8%AE%AE/</link>
+		<description>Recent content in SS 协议 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/categories/ss-%E5%8D%8F%E8%AE%AE/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>iOS 上哪些客户端原生支持 SS 2022 协议？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-041/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-041/</guid>
+				<description>Shadowrocket、Surge 与 Loon 兼容列表。</description>
+			</item>
+			<item>
+				<title>Shadowsocks (SS) 协议现在还稳定安全吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-033/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-033/</guid>
+				<description>SS 协议发展历史与现代 AEAD 加密现状。</description>
+			</item>
+			<item>
+				<title>Shadowsocks 和 ShadowsocksR (SSR) 有何区别？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-037/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-037/</guid>
+				<description>混淆协议混淆插件与历史分支说明。</description>
+			</item>
+			<item>
+				<title>Shadowsocks 插件 (obfs / v2ray-plugin) 作用</title>
+				<link>https://jctjzhinan.xyz/faq/faq-040/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-040/</guid>
+				<description>流量伪装与 WebSockets 传输配置。</description>
+			</item>
+			<item>
+				<title>Shadowsocks 节点在晚高峰容易丢包原因解析</title>
+				<link>https://jctjzhinan.xyz/faq/faq-035/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-035/</guid>
+				<description>公网中转与墙的阻断特征识别。</description>
+			</item>
+			<item>
+				<title>SS 协议支持 UDP 转发吗？如何开启？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-038/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-038/</guid>
+				<description>游戏语音与联机 UDP 代理设置。</description>
+			</item>
+			<item>
+				<title>SS 协议的 2022 新标准有哪些性能提升？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-034/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-034/</guid>
+				<description>抗主动探测与报文头加密增强机制。</description>
+			</item>
+			<item>
+				<title>为什么 SS 节点导入后显示 Timeout 超时？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-039/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-039/</guid>
+				<description>端口封锁、服务商节点维护排查。</description>
+			</item>
+			<item>
+				<title>如何配置 Shadowsocks 客户端代理参数？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-036/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-036/</guid>
+				<description>服务器地址、端口、密码与加密方式输入。</description>
+			</item>
+			<item>
+				<title>自建 SS 节点和购买 SS 专线机场哪个划算？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-042/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-042/</guid>
+				<description>IP 被墙成本与专线带宽利用率分析。</description>
+			</item>
+	</channel>
+</rss>

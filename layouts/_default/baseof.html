@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "zh-CN" }}">
+<head>
+  {{ partial "head_seo.html" . }}
+  <link rel="stylesheet" href="/css/main.css">
+  <script defer src="/js/main.js"></script>
+</head>
+<body class="site-body">
+  {{ partial "header.html" . }}
+
+  <main id="main-content" class="main-container">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{ partial "footer.html" . }}
+
+  {{ partial "jsonld.html" . }}
+</body>
+</html>

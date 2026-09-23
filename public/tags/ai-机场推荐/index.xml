@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>AI 机场推荐 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/tags/ai-%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90/</link>
+		<description>Recent content in AI 机场推荐 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/tags/ai-%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>2026 AI 工具机场推荐：全平台兼容与住宅级 IP</title>
+				<link>https://jctjzhinan.xyz/scenarios/ai-airport-recommendations/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/scenarios/ai-airport-recommendations/</guid>
+				<description>针对 OpenAI、Midjourney 与 Claude 的节点搭配选型。</description>
+			</item>
+	</channel>
+</rss>

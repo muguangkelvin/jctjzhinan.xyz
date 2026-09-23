@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Shadowrocket 小火箭使用教程 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/tags/shadowrocket-%E5%B0%8F%E7%81%AB%E7%AE%AD%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</link>
+		<description>Recent content in Shadowrocket 小火箭使用教程 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/tags/shadowrocket-%E5%B0%8F%E7%81%AB%E7%AE%AD%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>iOS iPhone 小火箭 Shadowrocket 安装与节点导入</title>
+				<link>https://jctjzhinan.xyz/clients/shadowrocket-ios-setup/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/clients/shadowrocket-ios-setup/</guid>
+				<description>苹果 iOS 节点导入、分流规则设置与常见连接报错排错。</description>
+			</item>
+	</channel>
+</rss>

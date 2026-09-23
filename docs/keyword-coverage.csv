@@ -1,0 +1,12 @@
+keyword,normalized_keyword,impressions,trend,cluster,intent,public_status,primary_url,supporting_urls,placement_plan,notes
+性价比机场,性价比机场,28260,stable,商业比较,选型,public,/recommendations/value/,"/recommendations/,/reviews/",H1与正文段落,最高展现关键词
+机场推荐 clash,机场推荐 clash,10065,up,客户端推荐,工具匹配,public,/recommendations/clash/,"/clients/,/recommendations/",H1与标题,工具类核心词
+机场节点,机场节点,9627,stable,基础概念,知识,public,/nodes/,"/guide/,/faq/",标题与正文,节点知识词
+便宜机场,便宜机场,6176,stable,性价比,低价选型,public,/recommendations/value/,"/providers/,/coupons/",段落与表格,低价意图
+机场订阅,机场订阅,5369,up,客户端导入,教程,public,/clients/,"/guide/,/faq/",标题与正文,订阅导入意图
+机场测评,机场测评,4284,stable,服务对比,评测,public,/reviews/,"/providers/,/rankings/",H1与卡片,测评聚合
+节点推荐,节点推荐,4094,stable,节点地区,选型,public,/nodes/,"/recommendations/,/scenarios/",标题与正文,节点地区选型
+好用的机场,好用的机场,2819,stable,口碑选型,推荐,public,/recommendations/,"/reviews/,/rankings/",正文与卡片,口碑词
+稳定机场,稳定机场,2225,up,专线稳定性,推荐,public,/guide/,"/recommendations/,/reviews/",标题与Hero,稳定性意图
+clash 机场推荐,clash 机场推荐,715,stable,客户端推荐,工具匹配,public,/recommendations/clash/,"/clients/,/guide/",H1与Hero,小写同义词
+AI 机场推荐,ai 机场推荐,500,up,AI工具专线,场景,public,/scenarios/,"/guide/,/faq/",标题与文章,用户指定新增词

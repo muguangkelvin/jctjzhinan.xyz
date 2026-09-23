@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>配置教程 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/tags/%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/</link>
+		<description>Recent content in 配置教程 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/tags/%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>2026 AI 工具机场推荐：全平台兼容与住宅级 IP</title>
+				<link>https://jctjzhinan.xyz/scenarios/ai-airport-recommendations/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/scenarios/ai-airport-recommendations/</guid>
+				<description>针对 OpenAI、Midjourney 与 Claude 的节点搭配选型。</description>
+			</item>
+			<item>
+				<title>2026 机场优惠码汇总与核验日志</title>
+				<link>https://jctjzhinan.xyz/coupons/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/coupons/</guid>
+				<description>实时搜罗最新折扣码，下订单立享省钱优惠。</description>
+			</item>
+			<item>
+				<title>2026 稳定机场推荐指南</title>
+				<link>https://jctjzhinan.xyz/recommendations/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/</guid>
+				<description>综合对比套餐、价格、专线类型与评测结论。</description>
+			</item>
+			<item>
+				<title>4K / 8K 流媒体解锁节点推荐：Netflix 与 Disney&#43; 专线</title>
+				<link>https://jctjzhinan.xyz/scenarios/streaming-media-unlock/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/scenarios/streaming-media-unlock/</guid>
+				<description>流畅观看海外 4K/8K 高清视频的节点要求与解锁率说明。</description>
+			</item>
+			<item>
+				<title>ChatGPT &amp; Claude 专用节点梯子：避免 IP 风控报错</title>
+				<link>https://jctjzhinan.xyz/scenarios/chatgpt-ai-dedicated-nodes/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/scenarios/chatgpt-ai-dedicated-nodes/</guid>
+				<description>如何选择风控分低、出口 IP 干净的 AI 办公专用节点。</description>
+			</item>
+			<item>
+				<title>Clash 规则分流与机场订阅配合优化</title>
+				<link>https://jctjzhinan.xyz/recommendations/clash/clash-rules-matching/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/clash/clash-rules-matching/</guid>
+				<description>如何避免国内流量误走代理及提升加载速度。</description>
+			</item>
+			<item>
+				<title>IEPL 专线与直连/中转节点区别详解</title>
+				<link>https://jctjzhinan.xyz/guide/iepl-vs-direct/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/guide/iepl-vs-direct/</guid>
+				<description>为什么晚高峰看视频不再卡顿？专线传输技术原理深度剖析。</description>
+			</item>
+			<item>
+				<title>iOS iPhone 小火箭 Shadowrocket 安装与节点导入</title>
+				<link>https://jctjzhinan.xyz/clients/shadowrocket-ios-setup/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/clients/shadowrocket-ios-setup/</guid>
+				<description>苹果 iOS 节点导入、分流规则设置与常见连接报错排错。</description>
+			</item>
+			<item>
+				<title>Sing-box 极速入门：订阅转换与全平台配置指引</title>
+				<link>https://jctjzhinan.xyz/clients/sing-box-subscription-convert/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/clients/sing-box-subscription-convert/</guid>
+				<description>新一代通用网络工具 Sing-box 从导入到规则修改教程。</description>
+			</item>
+			<item>
+				<title>Surge 高级规则分流与 TUN 模式排错手把手教程</title>
+				<link>https://jctjzhinan.xyz/clients/surge-rules-guide/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/clients/surge-rules-guide/</guid>
+				<description>Mac 与 iOS 端顶级代理工具 Surge 进阶配置与语法说明。</description>
+			</item>
+			<item>
+				<title>低成本小流量年付机场推荐：轻度用户备用首选</title>
+				<link>https://jctjzhinan.xyz/guide/small-annual-plan-airports/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/guide/small-annual-plan-airports/</guid>
+				<description>适合轻度上网与邮件办公的低预算年付备用机场。</description>
+			</item>
+			<item>
+				<title>十元内月付便宜机场实测与避坑提醒</title>
+				<link>https://jctjzhinan.xyz/recommendations/value/cheap-monthly-airports/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/value/cheap-monthly-airports/</guid>
+				<description>低门槛月付方案挑选原则与稳定性预期。</description>
+			</item>
+			<item>
+				<title>备用机场怎么选？一主一备网络冗余最佳实践</title>
+				<link>https://jctjzhinan.xyz/recommendations/backup-airports/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/backup-airports/</guid>
+				<description>主线路遭遇故障或断连时的双机场保活方案。</description>
+			</item>
+			<item>
+				<title>外贸与远程办公：如何配置低延迟不跳 IP 的节点？</title>
+				<link>https://jctjzhinan.xyz/scenarios/foreign-trade-remote-office/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/scenarios/foreign-trade-remote-office/</guid>
+				<description>跨境外贸、SaaS 工具协同与多出口 IP 稳定方案。</description>
+			</item>
+			<item>
+				<title>大流量重度用户机场推荐：TB 级高清影音首选</title>
+				<link>https://jctjzhinan.xyz/recommendations/heavy-user-airports/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/heavy-user-airports/</guid>
+				<description>满足海量下载与多人共享的大流量套餐矩阵。</description>
+			</item>
+			<item>
+				<title>小白必读：2026 稳定机场挑选 5 大黄金维度</title>
+				<link>https://jctjzhinan.xyz/guide/2026-stable-airport-guide/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/guide/2026-stable-airport-guide/</guid>
+				<description>涵盖线路架构、晚高峰稳定性、平台兼容性与避坑指南。</description>
+			</item>
+			<item>
+				<title>性价比便宜机场推荐：按预算与流量精明挑选</title>
+				<link>https://jctjzhinan.xyz/recommendations/value/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/value/</guid>
+				<description>精选低价优质节点，拒绝虚高溢价。</description>
+			</item>
+			<item>
+				<title>按月付费机场推荐：灵活试用无跑路风险</title>
+				<link>https://jctjzhinan.xyz/recommendations/monthly-pay-airports/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/monthly-pay-airports/</guid>
+				<description>拒绝高额长期绑定，月付模式性价比节点挑选。</description>
+			</item>
+			<item>
+				<title>本站机场测速与稳定性评测方法论说明</title>
+				<link>https://jctjzhinan.xyz/reviews/testing-methodology/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/reviews/testing-methodology/</guid>
+				<description>如何客观解读 Latency、Jitter 与 Speedtest 图表。</description>
+			</item>
+			<item>
+				<title>机场节点推荐与选择指南：香港/日本/美国节点区别</title>
+				<link>https://jctjzhinan.xyz/nodes/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/nodes/</guid>
+				<description>物理延迟、路由拓扑与流媒体解锁覆盖。</description>
+			</item>
+			<item>
+				<title>零基础教程：Windows/Mac 端 Clash Verge Rev 配置指南</title>
+				<link>https://jctjzhinan.xyz/clients/clash-verge-rev-tutorial/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/clients/clash-verge-rev-tutorial/</guid>
+				<description>从下载安装、订阅导入到开启 TUN 模式全流程手把手图文实操。</description>
+			</item>
+			<item>
+				<title>高性价比机场避坑选购：价格、套餐与流量计算法</title>
+				<link>https://jctjzhinan.xyz/guide/cheap-value-airports/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/guide/cheap-value-airports/</guid>
+				<description>教你用最少的预算选到稳定不卡顿的性价比节点。</description>
+			</item>
+	</channel>
+</rss>

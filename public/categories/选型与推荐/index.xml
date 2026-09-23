@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>选型与推荐 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/categories/%E9%80%89%E5%9E%8B%E4%B8%8E%E6%8E%A8%E8%8D%90/</link>
+		<description>Recent content in 选型与推荐 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/categories/%E9%80%89%E5%9E%8B%E4%B8%8E%E6%8E%A8%E8%8D%90/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>2026年新手第一次选机场应该注意什么？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-001/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-001/</guid>
+				<description>针对新手小白的 5 大选选型指标解析。</description>
+			</item>
+			<item>
+				<title>IEPL专线机场真的能做到晚高峰不卡顿吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-005/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-005/</guid>
+				<description>解析内网专线物理传输原理与性能保障。</description>
+			</item>
+			<item>
+				<title>低流量年付套餐适合哪些使用人群？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-006/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-006/</guid>
+				<description>轻度网页浏览与邮件发送用户的省钱选择。</description>
+			</item>
+			<item>
+				<title>免费机场和付费机场有什么安全隐患？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-009/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-009/</guid>
+				<description>数据隐私泄露、广告弹窗与恶意抓包警告。</description>
+			</item>
+			<item>
+				<title>公网中转节点和直连节点区别有多大？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-017/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-017/</guid>
+				<description>入口 BGP 转发对断连率的改善效果。</description>
+			</item>
+			<item>
+				<title>备用机场有必要购买吗？怎么搭配最省钱？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-004/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-004/</guid>
+				<description>一主一备最佳网络冗余配置建议。</description>
+			</item>
+			<item>
+				<title>多地区出口 IP 节点有什么实际作用？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-012/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-012/</guid>
+				<description>解锁不同国家流媒体与海外业务需求。</description>
+			</item>
+			<item>
+				<title>大流量机场套餐成本如何计算？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-007/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-007/</guid>
+				<description>TB 级别影音与下载用户的计费模型。</description>
+			</item>
+			<item>
+				<title>如何判断一家机场服务商是否随时可能跑路？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-008/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-008/</guid>
+				<description>域名注册年限、客服响应与套餐结构特征。</description>
+			</item>
+			<item>
+				<title>如何测试本地网络对某机场节点的实际延迟？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-016/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-016/</guid>
+				<description>Ping、TCPing 与真实 HTTP 下载测速法。</description>
+			</item>
+			<item>
+				<title>影音看4K视频需要多大的节点带宽？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-011/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-011/</guid>
+				<description>码率要求与机场单节点峰值速率分析。</description>
+			</item>
+			<item>
+				<title>性价比机场和高价专线机场主要区别在哪？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-002/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-002/</guid>
+				<description>深入对比价格、延迟与晚高峰稳定性差异。</description>
+			</item>
+			<item>
+				<title>按量计费 (一次性流量包) 机场划算吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-013/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-013/</guid>
+				<description>无过期时间流量包与按月套餐选择对比。</description>
+			</item>
+			<item>
+				<title>新开业的机场推荐购买吗？有什么风险？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-015/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-015/</guid>
+				<description>高性价比引流与后期质量下滑防范。</description>
+			</item>
+			<item>
+				<title>月付机场和年付机场哪个更划算？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-003/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-003/</guid>
+				<description>分析不同付费周期下跑路风险与资金安全。</description>
+			</item>
+			<item>
+				<title>机场服务商宣称的“无限流量”靠谱吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-014/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-014/</guid>
+				<description>合理使用原则 (FUP) 与带宽限制真相。</description>
+			</item>
+			<item>
+				<title>远程办公应该选择什么样的网络节点？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-010/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-010/</guid>
+				<description>固定 IP、低抖动与不跳 IP 专线配置。</description>
+			</item>
+			<item>
+				<title>选择机场时客服售后支持有多重要？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-018/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-018/</guid>
+				<description>工单响应时间与 Telegram 社区活跃度。</description>
+			</item>
+	</channel>
+</rss>

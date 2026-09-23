@@ -1,0 +1,18 @@
+<article class="article-card">
+  <div class="article-card-header">
+    {{ if .Params.categories }}
+    <span class="card-category">{{ index .Params.categories 0 }}</span>
+    {{ end }}
+    <time class="card-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+  </div>
+  <h3 class="article-card-title">
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </h3>
+  <p class="article-card-summary">
+    {{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ .Summary | plainify | truncate 120 }}{{ end }}
+  </p>
+  <div class="article-card-footer">
+    <span class="read-time">&#9202; 预计阅读 {{ .ReadingTime }} 分钟</span>
+    <a href="{{ .RelPermalink }}" class="read-more-link">阅读全文 &rarr;</a>
+  </div>
+</article>

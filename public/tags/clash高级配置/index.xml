@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Clash高级配置 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/tags/clash%E9%AB%98%E7%BA%A7%E9%85%8D%E7%BD%AE/</link>
+		<description>Recent content in Clash高级配置 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/tags/clash%E9%AB%98%E7%BA%A7%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Clash 混合配置 (Mixin) 和预处理 (Script) 怎么用？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-026/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-026/</guid>
+				<description>进阶用户的规则脚本自定义功能。</description>
+			</item>
+	</channel>
+</rss>

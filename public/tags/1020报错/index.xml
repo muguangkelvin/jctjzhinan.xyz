@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>1020报错 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/tags/1020%E6%8A%A5%E9%94%99/</link>
+		<description>Recent content in 1020报错 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/tags/1020%E6%8A%A5%E9%94%99/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>提示“1020 Access Denied”报错排查方法</title>
+				<link>https://jctjzhinan.xyz/faq/faq-095/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-095/</guid>
+				<description>Cloudflare 节点 IP 封禁解决。</description>
+			</item>
+	</channel>
+</rss>

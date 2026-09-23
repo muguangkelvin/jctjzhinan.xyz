@@ -1,0 +1,11 @@
+{{ if not .IsHome }}
+<nav class="breadcrumbs-nav" aria-label="面包屑导航">
+  <div class="breadcrumbs-flex">
+    <a href="/" class="breadcrumb-link">首页</a>
+    {{ if and .Title (ne .Title "首页") }}
+    <span class="breadcrumb-sep">/</span>
+    <span class="breadcrumb-current">{{ .Title }}</span>
+    {{ end }}
+  </div>
+</nav>
+{{ end }}

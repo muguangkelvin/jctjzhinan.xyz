@@ -1,0 +1,45 @@
+{{ $p := . }}
+<div class="provider-card{{ if $p.isPrimary }} primary-featured-card rank-{{ $p.rank }}{{ end }}">
+  <div class="card-badge-row">
+    <span class="rank-badge">TOP {{ $p.rank }}</span>
+    {{ if $p.isPrimary }}<span class="editor-choice-tag">编辑推荐</span>{{ end }}
+    <span class="check-date-tag">核验日期: {{ $p.lastChecked }}</span>
+  </div>
+
+  <div class="card-header">
+    <h3 class="provider-name">
+      <a href="/providers/{{ $p.slug }}/">{{ $p.name }}</a>
+      {{ if $p.alternateName }}<span class="alt-name">({{ $p.alternateName }})</span>{{ end }}
+    </h3>
+    <div class="suitable-tag">{{ $p.suitableFor }}</div>
+  </div>
+
+  <p class="provider-summary">{{ $p.summary }}</p>
+
+  <div class="card-specs-grid">
+    <div class="spec-item">
+      <span class="spec-label">参考价格</span>
+      <span class="spec-value price-highlight">{{ $p.priceFrom }}</span>
+    </div>
+    <div class="spec-item">
+      <span class="spec-label">基础流量</span>
+      <span class="spec-value">{{ $p.trafficFrom }}</span>
+    </div>
+    <div class="spec-item spec-full">
+      <span class="spec-label">优惠码</span>
+      <span class="spec-value coupon-code-box">
+        <code>{{ $p.coupon }}</code>
+        {{ if ne $p.coupon "暂无优惠码" }}
+        <button class="btn-copy-coupon" data-coupon="{{ $p.coupon }}" title="点击复制优惠码">复制</button>
+        {{ end }}
+      </span>
+    </div>
+  </div>
+
+  <div class="card-actions-row">
+    <a href="/providers/{{ $p.slug }}/" class="btn btn-outline-info">查看 {{ $p.name }} 机场测评</a>
+    <a href="{{ $p.inviteURL }}" target="_blank" rel="sponsored nofollow noopener" class="btn btn-primary btn-affiliate">
+      {{ $p.ctaText | default "查看当前套餐" }} &rarr;
+    </a>
+  </div>
+</div>

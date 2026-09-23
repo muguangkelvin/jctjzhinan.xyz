@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="list-page-layout">
+  {{ partial "breadcrumbs.html" . }}
+
+  <header class="list-header">
+    <h1 class="list-title">{{ .Title }}</h1>
+    {{ if .Description }}
+    <p class="list-description">{{ .Description }}</p>
+    {{ else }}
+    <p class="list-description">为您精选与“{{ .Title }}”相关的深度评测、对比指南与手把手实操教程。</p>
+    {{ end }}
+  </header>
+
+  {{ if .Content }}
+  <div class="list-intro-content">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  <div class="articles-grid">
+    {{ range .Paginator.Pages }}
+      {{ partial "article_card.html" . }}
+    {{ end }}
+  </div>
+
+  {{ if gt .Paginator.TotalPages 1 }}
+  <nav class="pagination-nav">
+    {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}" class="page-link prev-link">&laquo; 上一页</a>
+    {{ end }}
+    <span class="page-number">第 {{ .Paginator.PageNumber }} 页 / 共 {{ .Paginator.TotalPages }} 页</span>
+    {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}" class="page-link next-link">下一页 &raquo;</a>
+    {{ end }}
+  </nav>
+  {{ end }}
+</div>
+{{ end }}

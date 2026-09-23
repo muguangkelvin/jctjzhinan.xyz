@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+  
+
+<title>为什么 Trojan 节点首次连接延迟比较高？ ｜ 机场推荐指南</title>
+
+
+
+  
+
+<meta name="description" content="TLS 三次握手与 RTT 传输开销。">
+
+
+<link rel="canonical" href="https://jctjzhinan.xyz/faq/faq-050/">
+
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="为什么 Trojan 节点首次连接延迟比较高？ ｜ 机场推荐指南">
+<meta property="og:description" content="TLS 三次握手与 RTT 传输开销。">
+<meta property="og:url" content="https://jctjzhinan.xyz/faq/faq-050/">
+<meta property="og:site_name" content="机场推荐指南">
+<meta property="og:locale" content="zh_CN">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="为什么 Trojan 节点首次连接延迟比较高？ ｜ 机场推荐指南">
+<meta name="twitter:description" content="TLS 三次握手与 RTT 传输开销。">
+
+
+<link rel="alternate" type="application/rss+xml" title="机场推荐指南" href="/index.xml">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <script defer src="/js/main.js"></script>
+</head>
+<body class="site-body">
+  
+<header class="site-header">
+  <div class="header-top-bar">
+    <div class="header-container">
+      <div class="brand-area">
+        <a href="/" class="brand-logo" title="机场推荐指南">
+          <span class="logo-badge">JC</span>
+          <span class="brand-name">机场推荐指南</span>
+        </a>
+        <span class="brand-subtitle">机场推荐、Clash 机场测评与节点选择指南</span>
+      </div>
+      <div class="header-actions">
+        <a href="/recommendations/" class="btn btn-header-cta">查看机场推荐</a>
+        
+        
+        <div class="header-search-box">
+          <input type="text" id="header-search-input" class="header-search-input" placeholder="搜索关联词或机场..." aria-label="搜索关联词" autocomplete="off">
+          <button id="header-search-btn" class="header-search-btn" title="点击搜索关联词" type="button">
+            <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+          <div id="search-suggestions-dropdown" class="search-suggestions-dropdown" style="display: none;"></div>
+        </div>
+
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('header-search-input');
+            const searchBtn = document.getElementById('header-search-btn');
+            const dropdown = document.getElementById('search-suggestions-dropdown');
+
+            if (!searchInput || !dropdown) return;
+
+            const searchItems = [
+              { title: "2026 稳定机场推荐总榜", keywords: ["机场推荐", "推荐", "2026", "稳定机场", "排行榜", "节点"], url: "/recommendations/", tag: "推荐榜单" },
+              { title: "高性价比平价机场推荐", keywords: ["性价比", "平价", "便宜", "学生", "低价"], url: "/recommendations/value/", tag: "推荐榜单" },
+              { title: "Clash 专用高速机场推荐", keywords: ["clash", "clash verge", "clash meta", "clash机场"], url: "/recommendations/clash/", tag: "推荐榜单" },
+              { title: "灵动云 (4K极速 IPLC专线机场)", keywords: ["灵动云", "iplc", "专线", "灵动", "4k"], url: "/reviews/lingdong/", tag: "机场评测" },
+              { title: "暮光网络 (多节点全专线机场)", keywords: ["暮光网络", "暮光", "专线", "bgp"], url: "/reviews/muguang/", tag: "机场评测" },
+              { title: "飞猫云 (海量节点大流量机场)", keywords: ["飞猫云", "飞猫", "流量", "节点"], url: "/reviews/feimao/", tag: "机场评测" },
+              { title: "微风网络 (平价稳定备用机场)", keywords: ["微风网络", "微风", "便宜", "备用"], url: "/reviews/weifeng/", tag: "机场评测" },
+              { title: "极客云 (老牌稳定机场)", keywords: ["极客云", "极客", "老牌"], url: "/reviews/jike/", tag: "机场评测" },
+              { title: "新手选机场避坑指南", keywords: ["新手", "选机场", "指南", "避坑", "教程"], url: "/tutorials/guide/", tag: "教程" },
+              { title: "客户端配置教程 (Clash / Shadowrocket)", keywords: ["客户端", "配置", "小火箭", "shadowrocket", "sing-box", "v2ray"], url: "/tutorials/setup/", tag: "教程" },
+              { title: "场景专线评测 (IEPL/IPLC/游戏)", keywords: ["iepl", "iplc", "专线", "游戏", "延迟"], url: "/tutorials/line-evaluation/", tag: "评测" },
+              { title: "常见问题解答与排错 FAQ", keywords: ["常见问题", "faq", "排错", "掉线", "超时", "chatgpt", "netflix"], url: "/faq/", tag: "FAQ" },
+              { title: "机场节点服务状态与实时监测", keywords: ["服务状态", "状态", "监测", "在线"], url: "/status/", tag: "工具" }
+            ];
+
+            function renderSuggestions(query) {
+              const q = (query || '').trim().toLowerCase();
+              dropdown.innerHTML = '';
+
+              let filtered = [];
+              if (!q) {
+                filtered = searchItems.slice(0, 6); 
+              } else {
+                filtered = searchItems.filter(item => {
+                  return item.title.toLowerCase().includes(q) ||
+                         item.tag.toLowerCase().includes(q) ||
+                         item.keywords.some(k => k.toLowerCase().includes(q));
+                });
+              }
+
+              if (filtered.length === 0) {
+                dropdown.innerHTML = '<div class="suggestion-empty">未找到相关关联词，按 Enter 键提交搜索</div>';
+              } else {
+                const header = document.createElement('div');
+                header.className = 'suggestion-group-title';
+                header.textContent = !q ? '热门关联词推荐' : '搜索结果关联词';
+                dropdown.appendChild(header);
+
+                filtered.forEach(item => {
+                  const a = document.createElement('a');
+                  a.href = item.url;
+                  a.className = 'suggestion-item';
+                  a.innerHTML = `<span class="item-title">${item.title}</span><span class="item-tag">${item.tag}</span>`;
+                  dropdown.appendChild(a);
+                });
+              }
+              dropdown.style.display = 'block';
+            }
+
+            searchInput.addEventListener('focus', function() {
+              renderSuggestions(this.value);
+            });
+
+            searchInput.addEventListener('input', function() {
+              renderSuggestions(this.value);
+            });
+
+            function performSearch() {
+              const q = searchInput.value.trim();
+              if (q) {
+                const exactMatch = searchItems.find(item => item.keywords.some(k => k.toLowerCase() === q.toLowerCase()));
+                if (exactMatch) {
+                  window.location.href = exactMatch.url;
+                } else {
+                  window.location.href = '/faq/?q=' + encodeURIComponent(q);
+                }
+              } else {
+                renderSuggestions('');
+                searchInput.focus();
+              }
+            }
+
+            if (searchBtn) {
+              searchBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                if (dropdown.style.display === 'block' && !searchInput.value.trim()) {
+                  
+                  dropdown.style.display = 'none';
+                } else {
+                  performSearch();
+                }
+              });
+            }
+
+            searchInput.addEventListener('keydown', function(e) {
+              if (e.key === 'Enter') {
+                e.preventDefault();
+                performSearch();
+              } else if (e.key === 'Escape') {
+                dropdown.style.display = 'none';
+              }
+            });
+
+            document.addEventListener('click', function(e) {
+              if (!searchInput.contains(e.target) && !dropdown.contains(e.target) && (!searchBtn || !searchBtn.contains(e.target))) {
+                dropdown.style.display = 'none';
+              }
+            });
+          });
+        </script>
+
+        
+        <a href="https://t.me/+6fo_zU8PHKVlMzZl" target="_blank" rel="noopener noreferrer" class="btn btn-social btn-tg" title="加入 TG 官方频道">
+          <svg class="social-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.03-1.96 1.25-5.54 3.69-.52.36-1 .54-1.43.53-.48-.01-1.4-.27-2.09-.49-.84-.28-1.51-.43-1.45-.91.03-.25.38-.51 1.07-.78 4.19-1.83 6.99-3.04 8.39-3.63 3.99-1.67 4.82-1.96 5.36-1.97.12 0 .38.03.55.17.14.12.18.28.2.45-.02.07-.02.21-.04.38z"/>
+          </svg>
+          <span>TG 频道</span>
+        </a>
+
+        <button id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="切换导航菜单" aria-expanded="false" aria-controls="mobile-nav-menu">
+          <span class="hamburger-icon"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <nav class="header-nav-bar" aria-label="主导航">
+    <div class="header-container">
+      <ul class="nav-list" id="desktop-nav-menu">
+        
+        <li class="nav-item">
+          <a href="/" class="nav-link">
+            首页
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/guide/" class="nav-link">
+            新手选机场指南
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/clients/" class="nav-link">
+            客户端配置教程
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/scenarios/" class="nav-link">
+            场景专线评测
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/faq/" class="nav-link">
+            常见问题与 FAQ
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/status/" class="nav-link">
+            服务状态核验
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+
+  
+  <div id="mobile-nav-menu" class="mobile-nav-drawer" aria-hidden="true">
+    <div class="mobile-drawer-header">
+      <span class="mobile-brand-title">机场推荐指南</span>
+      <button id="mobile-menu-close" class="close-btn" aria-label="关闭菜单">&times;</button>
+    </div>
+    <ul class="mobile-nav-list">
+      
+      <li class="mobile-nav-item">
+        <a href="/" class="mobile-nav-link">
+          首页
+        </a>
+      </li>
+      
+      <li class="mobile-nav-item">
+        <a href="/guide/" class="mobile-nav-link">
+          新手选机场指南
+        </a>
+      </li>
+      
+      <li class="mobile-nav-item">
+        <a href="/clients/" class="mobile-nav-link">
+          客户端配置教程
+        </a>
+      </li>
+      
+      <li class="mobile-nav-item">
+        <a href="/scenarios/" class="mobile-nav-link">
+          场景专线评测
+        </a>
+      </li>
+      
+      <li class="mobile-nav-item">
+        <a href="/faq/" class="mobile-nav-link">
+          常见问题与 FAQ
+        </a>
+      </li>
+      
+      <li class="mobile-nav-item">
+        <a href="/status/" class="mobile-nav-link">
+          服务状态核验
+        </a>
+      </li>
+      
+    </ul>
+    <div class="mobile-drawer-footer">
+      <a href="/recommendations/" class="btn btn-primary btn-block">查看 2026 稳定机场推荐榜</a>
+    </div>
+  </div>
+</header>
+
+
+  <main id="main-content" class="main-container">
+    
+<div class="article-page-layout">
+  
+<nav class="breadcrumbs-nav" aria-label="面包屑导航">
+  <div class="breadcrumbs-flex">
+    <a href="/" class="breadcrumb-link">首页</a>
+    
+    <span class="breadcrumb-sep">/</span>
+    <span class="breadcrumb-current">为什么 Trojan 节点首次连接延迟比较高？</span>
+    
+  </div>
+</nav>
+
+
+
+  <article class="single-article-content">
+    <header class="article-header">
+      <h1 class="article-title">为什么 Trojan 节点首次连接延迟比较高？</h1>
+      <div class="article-meta-bar">
+        <span class="meta-item author-meta">&#128100; 作者：JC指南编辑部</span>
+        <span class="meta-item date-meta">&#128197; 发布时间：2026-09-19</span>
+        <span class="meta-item update-meta">&#128260; 最后核验：2026-09-19</span>
+        <span class="meta-item readtime-meta">&#9202; 预计阅读：3 分钟</span>
+      </div>
+      
+      <div class="article-summary-box">
+        <strong>【内容导读】</strong>TLS 三次握手与 RTT 传输开销。
+      </div>
+      
+    </header>
+
+    
+<aside class="toc-sidebar">
+  <div class="toc-container">
+    <h4 class="toc-title">文章目录</h4>
+    <nav id="TableOfContents">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#问题直接解答">问题直接解答</a>
+      <ul>
+        <li><a href="#深入解析为什么选择稳定的-trojan握手延迟-对于网络体验至关重要">深入解析：为什么选择稳定的 Trojan握手延迟 对于网络体验至关重要？</a></li>
+        <li><a href="#本场景推荐主推线路表">本场景推荐主推线路表</a></li>
+        <li><a href="#总结与操作建议">总结与操作建议</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </nav>
+  </div>
+</aside>
+
+
+
+    <div class="article-body">
+      <h2 id="问题直接解答">问题直接解答</h2>
+<p>针对【<strong>为什么 Trojan 节点首次连接延迟比较高？</strong>】这一核心疑惑，简要结论是：<strong>TLS 三次握手与 RTT 传输开销。</strong> 在选购与配置网络节点时，务必注意线路稳定性、客户端协议兼容性以及安全防范。</p>
+<hr>
+<h3 id="深入解析为什么选择稳定的-trojan握手延迟-对于网络体验至关重要">深入解析：为什么选择稳定的 Trojan握手延迟 对于网络体验至关重要？</h3>
+<p>在搭建和使用海外网络代理时，很多小白用户容易掉入“低价月抛”或“虚标带宽”的坑中。实际上，一个高质量的节点服务，其核心竞争力不在于宣传的“几百个节点”，而在于<strong>真正的公网中转质量与专线冗余</strong>。</p>
+<h4 id="1-线路架构的区别直连-vs-中转-vs-iepl-专线">1. 线路架构的区别：直连 vs 中转 vs IEPL 专线</h4>
+<ul>
+<li><strong>直连节点 (Direct)</strong>：本地设备直接连接海外 VPS 服务器。受限于国际出口 BGP 路由和墙的封锁，晚高峰丢包率可能高达 30% 以上，延迟剧烈波动。</li>
+<li><strong>公网中转 (Transit)</strong>：在入口处部署国内中转服务器，将数据打包后通过公网发往出口。稳定性有所提升，但如果中转节点遭遇攻击或污染，依然影响体验。</li>
+<li><strong>IEPL 内网专线 (International Private Leased Circuit)</strong>：端到端物理专线，数据过境不经过公网防火墙检查，具有<strong>超低延迟、零丢包、绝无封锁风险</strong>的特点。</li>
+</ul>
+<h4 id="2-分流规则与-tun-模式的工作机制">2. 分流规则与 TUN 模式的工作机制</h4>
+<p>对于使用 Clash Verge Rev、Sing-box 或 Shadowrocket 的用户来说，合理的分流规则可以实现“国内流量直连、海外流量走节点”。
+开启 <strong>TUN (Tunnel) 虚拟网卡模式</strong> 后，系统会将全局网络流量接管至代理内核中。这样即使部分软件（如 Discord、Telegram、Spotify）不支持自定义代理协议，也能无缝通过专线节点完成加速。</p>
+<h4 id="3-购买前注意事项与风险防范">3. 购买前注意事项与风险防范</h4>
+<ul>
+<li><strong>按月付费</strong>：任何新用户在使用未知的节点服务时，强烈建议先选择月付套餐，测试本地网络运营商（电信、联通、移动）在晚高峰 20:00-23:00 的实际表现。</li>
+<li><strong>设备数量限制</strong>：核对套餐支持的最大同时在线设备数，避免家庭多设备在线时触发断连规则。</li>
+<li><strong>价格与结算</strong>：所有套餐价格、优惠码与流量包规则均可能随运营成本微调，下单前请仔细核对第三方结算页面的最终账单。</li>
+</ul>
+<hr>
+<h3 id="本场景推荐主推线路表">本场景推荐主推线路表</h3>
+<table>
+	<thead>
+			<tr>
+					<th>排序</th>
+					<th>服务商名称</th>
+					<th>起步价格</th>
+					<th>基础流量</th>
+					<th>专属优惠码</th>
+					<th>站内测评</th>
+					<th>官网链接</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>TOP 1</td>
+					<td><strong>灵动云</strong></td>
+					<td>16 元/月</td>
+					<td>110GB/月</td>
+					<td><code>lingdong</code></td>
+					<td><a href="/providers/lingdong-cloud/">测评</a></td>
+					<td><a href="https://varnexa.lingdongaff.com/#/?code=JoIy7bO1">查看当前套餐</a></td>
+			</tr>
+			<tr>
+					<td>TOP 2</td>
+					<td><strong>暮光网络</strong></td>
+					<td>20 元/月</td>
+					<td>120GB/月</td>
+					<td><code>mm88</code></td>
+					<td><a href="/providers/twilight/">测评</a></td>
+					<td><a href="https://varnexa.twilightaff.com/#/?code=KvGly3jY">查看当前套餐</a></td>
+			</tr>
+			<tr>
+					<td>TOP 3</td>
+					<td><strong>飞猫云</strong></td>
+					<td>84 元/年</td>
+					<td>50GB/月</td>
+					<td><code>flycat888</code></td>
+					<td><a href="/providers/flycat-cloud/">测评</a></td>
+					<td><a href="https://flycat1.flycatvipaff.cc/#/?code=FOdfcRFH">查看当前套餐</a></td>
+			</tr>
+			<tr>
+					<td>TOP 4</td>
+					<td><strong>微风网络</strong></td>
+					<td>结算页为准</td>
+					<td>100GB/月</td>
+					<td>暂无</td>
+					<td><a href="/providers/breezenet/">测评</a></td>
+					<td><a href="https://edp01.breezenetaff.com/#/?code=He4n3zxg">查看当前套餐</a></td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="总结与操作建议">总结与操作建议</h3>
+<p>对于小白用户，解决【为什么 Trojan 节点首次连接延迟比较高？】的关键在于按照标准步骤排查：先确认本地网络正常，再检查订阅链接与分流规则，最后核对机场服务商的节点状态。如有更多疑问，可随时查阅站内其他专项教程。</p>
+
+    </div>
+
+    
+
+
+    <div class="article-disclaimer-box">
+      <p class="disclaimer-title">【合规与使用声明】</p>
+      <p>本站所有内容均用于网络技术科普、远程办公与网络连接排错指导。请遵守相关法律法规，合法合规使用网络工具。本站包含合作伙伴与联盟服务推广链接，价格与套餐状态均以各服务商第三方结算页面为准。</p>
+    </div>
+
+    
+
+<section class="related-content-section">
+  <h3 class="related-title">延伸相关阅读</h3>
+  <div class="related-grid">
+    
+    <div class="related-card">
+      <a href="/faq/faq-001/" class="related-link">2026年新手第一次选机场应该注意什么？</a>
+      <span class="related-date">2026-09-19</span>
+    </div>
+    
+    <div class="related-card">
+      <a href="/faq/faq-087/" class="related-link">Android 手机推荐使用什么客户端软件？</a>
+      <span class="related-date">2026-09-19</span>
+    </div>
+    
+    <div class="related-card">
+      <a href="/faq/faq-023/" class="related-link">Clash Meta 内核与 Alpha 内核选哪个更好？</a>
+      <span class="related-date">2026-09-19</span>
+    </div>
+    
+    <div class="related-card">
+      <a href="/faq/faq-019/" class="related-link">Clash Verge Rev 如何导入订阅链接？</a>
+      <span class="related-date">2026-09-19</span>
+    </div>
+    
+  </div>
+</section>
+
+
+  </article>
+</div>
+
+  </main>
+
+  
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-brand-section">
+      <div class="footer-logo">
+        <span class="logo-badge">JC</span>
+        <span class="footer-title">机场推荐指南</span>
+      </div>
+      <div class="footer-keywords-summary">
+        <p class="footer-text-para">
+          本站专注当前 2026 年机场推荐、性价比机场、Clash 机场测评与机场节点推荐，持续整理便宜机场、稳定机场、AI 机场推荐、机场订阅、价格套餐、优惠码及购买前须知，为用户提供带核验日期的选购参考。
+        </p>
+        <p class="footer-text-para footer-disclosure-text">
+          【合作与核验说明】本站包含第三方机场服务商的邀请链接与合作推荐，排序基于站内编辑策略与场景匹配。所有价格、流量及节点状态均带核验日期，具体套餐详情请以各服务商当前结算页为准。
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-links-grid">
+      <div class="footer-col">
+        <h4 class="footer-col-title">热门导航</h4>
+        <ul class="footer-links-list">
+          <li><a href="/recommendations/">2026 稳定机场推荐</a></li>
+          <li><a href="/recommendations/value/">性价比便宜机场</a></li>
+          <li><a href="/recommendations/clash/">Clash 专属机场推荐</a></li>
+          <li><a href="/reviews/">机场测评汇总</a></li>
+          <li><a href="/rankings/">机场排行榜</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">教程与排错</h4>
+        <ul class="footer-links-list">
+          <li><a href="/guide/">新手选机场指南</a></li>
+          <li><a href="/clients/">客户端配置教程</a></li>
+          <li><a href="/scenarios/">场景专线评测</a></li>
+          <li><a href="/faq/">常见问题与 FAQ</a></li>
+          <li><a href="/status/">服务状态核验</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">编辑与信任</h4>
+        <ul class="footer-links-list">
+          <li><a href="/about/">关于我们</a></li>
+          <li><a href="/editorial-policy/">编辑原则</a></li>
+          <li><a href="/methodology/">测评方法说明</a></li>
+          <li><a href="/corrections/">纠错与更新政策</a></li>
+          <li><a href="/affiliate-disclosure/">联盟与合作披露</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">条款与订阅</h4>
+        <ul class="footer-links-list">
+          <li><a href="/privacy/">隐私政策</a></li>
+          <li><a href="/terms/">服务条款</a></li>
+          <li><a href="/disclaimer/">免责声明</a></li>
+          <li><a href="/contact/">联系我们</a></li>
+          <li><a href="/sitemap.xml">XML 站点地图</a></li>
+          <li><a href="/index.xml">RSS 订阅</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom-bar">
+      <p class="copyright-text">
+        &copy; 2026 机场推荐指南 (jctjzhinan.xyz). 保留所有权利。
+      </p>
+      <p class="disclaimer-text">
+        声明：第三方软件及商标（如 Clash, Sing-box, Shadowrocket, Surge 等）版权归各自权利人所有，本站为独立技术分享博客，不暗示官方隶属关系。
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+  
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "\"为什么 Trojan 节点首次连接延迟比较高？\"",
+  "description": "\"TLS 三次握手与 RTT 传输开销。\"",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "\"https://jctjzhinan.xyz/faq/faq-050/\""
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "JC指南编辑部"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "\"机场推荐指南\"",
+    "url": "\"https://jctjzhinan.xyz/\""
+  },
+  "datePublished": "\"2026-09-19T10:00:00+08:00\"",
+  "dateModified": "\"2026-09-19T10:00:00+08:00\"",
+  "inLanguage": "zh-CN"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "首页",
+      "item": "https:\/\/jctjzhinan.xyz\/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "\"为什么 Trojan 节点首次连接延迟比较高？\"",
+      "item": "https:\/\/jctjzhinan.xyz\/faq\/faq-050\/"
+    }
+  ]
+}
+</script>
+
+
+</body>
+</html>

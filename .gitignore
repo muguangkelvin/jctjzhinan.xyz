@@ -1,0 +1,6 @@
+# Hugo build locks and generated assets
+.hugo_build.lock
+resources/_gen/
+.DS_Store
+Thumbs.db
+node_modules/

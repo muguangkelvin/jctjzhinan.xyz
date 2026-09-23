@@ -1,0 +1,14 @@
+{{ $related := .Site.RegularPages.Related . | first 4 }}
+{{ if $related }}
+<section class="related-content-section">
+  <h3 class="related-title">延伸相关阅读</h3>
+  <div class="related-grid">
+    {{ range $related }}
+    <div class="related-card">
+      <a href="{{ .RelPermalink }}" class="related-link">{{ .Title }}</a>
+      <span class="related-date">{{ .Date.Format "2006-01-02" }}</span>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

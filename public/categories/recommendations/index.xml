@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Recommendations on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/categories/recommendations/</link>
+		<description>Recent content in Recommendations on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/categories/recommendations/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>2026 稳定机场推荐指南</title>
+				<link>https://jctjzhinan.xyz/recommendations/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/</guid>
+				<description>综合对比套餐、价格、专线类型与评测结论。</description>
+			</item>
+			<item>
+				<title>Clash 专属机场推荐：完美兼容 Meta / Mihomo 内核</title>
+				<link>https://jctjzhinan.xyz/recommendations/clash/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/clash/</guid>
+				<description>针对 Clash 各分支软件优化分流与 TUN 模式的机场集锦。</description>
+			</item>
+			<item>
+				<title>Clash 规则分流与机场订阅配合优化</title>
+				<link>https://jctjzhinan.xyz/recommendations/clash/clash-rules-matching/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/clash/clash-rules-matching/</guid>
+				<description>如何避免国内流量误走代理及提升加载速度。</description>
+			</item>
+			<item>
+				<title>十元内月付便宜机场实测与避坑提醒</title>
+				<link>https://jctjzhinan.xyz/recommendations/value/cheap-monthly-airports/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/value/cheap-monthly-airports/</guid>
+				<description>低门槛月付方案挑选原则与稳定性预期。</description>
+			</item>
+			<item>
+				<title>备用机场怎么选？一主一备网络冗余最佳实践</title>
+				<link>https://jctjzhinan.xyz/recommendations/backup-airports/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/backup-airports/</guid>
+				<description>主线路遭遇故障或断连时的双机场保活方案。</description>
+			</item>
+			<item>
+				<title>大流量重度用户机场推荐：TB 级高清影音首选</title>
+				<link>https://jctjzhinan.xyz/recommendations/heavy-user-airports/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/heavy-user-airports/</guid>
+				<description>满足海量下载与多人共享的大流量套餐矩阵。</description>
+			</item>
+			<item>
+				<title>性价比便宜机场推荐：按预算与流量精明挑选</title>
+				<link>https://jctjzhinan.xyz/recommendations/value/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/value/</guid>
+				<description>精选低价优质节点，拒绝虚高溢价。</description>
+			</item>
+			<item>
+				<title>按月付费机场推荐：灵活试用无跑路风险</title>
+				<link>https://jctjzhinan.xyz/recommendations/monthly-pay-airports/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/recommendations/monthly-pay-airports/</guid>
+				<description>拒绝高额长期绑定，月付模式性价比节点挑选。</description>
+			</item>
+	</channel>
+</rss>

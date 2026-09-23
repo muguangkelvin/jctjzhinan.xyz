@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>多设备与订阅 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/categories/%E5%A4%9A%E8%AE%BE%E5%A4%87%E4%B8%8E%E8%AE%A2%E9%98%85/</link>
+		<description>Recent content in 多设备与订阅 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/categories/%E5%A4%9A%E8%AE%BE%E5%A4%87%E4%B8%8E%E8%AE%A2%E9%98%85/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Android 手机推荐使用什么客户端软件？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-087/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-087/</guid>
+				<description>Clash Meta for Android 与 Sing-box。</description>
+			</item>
+			<item>
+				<title>iPad 设备使用小火箭 Shadowrocket 设置步骤</title>
+				<link>https://jctjzhinan.xyz/faq/faq-092/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-092/</guid>
+				<description>分屏操作与节点导入。</description>
+			</item>
+			<item>
+				<title>iPhone 和 Mac 电脑怎么共享同一份订阅？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-086/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-086/</guid>
+				<description>利用 iCloud 同步或手动复制订阅 URL。</description>
+			</item>
+			<item>
+				<title>一个机场订阅链接可以在多台设备上同时使用吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-085/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-085/</guid>
+				<description>限制同时在线 IP 规则说明。</description>
+			</item>
+			<item>
+				<title>如何在 Clash 里设置一键重置订阅信息？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-090/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-090/</guid>
+				<description>后台重置密钥与客户端重新导入。</description>
+			</item>
+			<item>
+				<title>智能电视 (Android TV) 怎么安装代理软件？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-091/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-091/</guid>
+				<description>APK 简易安装与遥控器操作配合。</description>
+			</item>
+			<item>
+				<title>订阅链接泄露给别人会有什么严重后果？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-089/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-089/</guid>
+				<description>流量被盗刷、账号被封禁紧急重置。</description>
+			</item>
+			<item>
+				<title>路由器刷 OpenWrt 部署 Clash 教程概要</title>
+				<link>https://jctjzhinan.xyz/faq/faq-088/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-088/</guid>
+				<description>全家设备免安装客户端代理。</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,50 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+{{ $seo := .Site.Data.site_seo_profile }}
+{{ $pageTitle := "" }}
+{{ if .IsHome }}
+  {{ $pageTitle = printf "2026 机场推荐：Clash 机场测评、性价比与节点选择 ｜ %s" .Site.Title }}
+{{ else if .Title }}
+  {{ $pageTitle = printf "%s ｜ %s" .Title .Site.Title }}
+{{ else }}
+  {{ $pageTitle = .Site.Title }}
+{{ end }}
+<title>{{ $pageTitle }}</title>
+
+{{ $description := "" }}
+{{ if .Description }}
+  {{ $description = .Description }}
+{{ else if .Params.summary }}
+  {{ $description = .Params.summary }}
+{{ else if .IsHome }}
+  {{ $description = "小白必备的节点选购与客户端配置指南。针对 2026 年各类稳定专线机场推荐、性价比机场选型及 Clash / Sing-box / Shadowrocket 客户端分流设置教程。" }}
+{{ else }}
+  {{ $description = printf "%s - 机场推荐指南专业分析与手把手配置教程。" .Title }}
+{{ end }}
+<meta name="description" content="{{ $description }}">
+
+{{ $canonical := .Permalink }}
+<link rel="canonical" href="{{ $canonical }}">
+
+{{ if .Params.noindex }}
+<meta name="robots" content="noindex, follow">
+{{ else }}
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+{{ end }}
+
+<!-- Open Graph / Social Media -->
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ $pageTitle }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ $canonical }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:locale" content="zh_CN">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $pageTitle }}">
+<meta name="twitter:description" content="{{ $description }}">
+
+<!-- RSS Autodiscovery -->
+<link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="/index.xml">

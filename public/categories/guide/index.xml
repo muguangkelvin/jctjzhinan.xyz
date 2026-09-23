@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Guide on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/categories/guide/</link>
+		<description>Recent content in Guide on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/categories/guide/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>IEPL 专线与直连/中转节点区别详解</title>
+				<link>https://jctjzhinan.xyz/guide/iepl-vs-direct/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/guide/iepl-vs-direct/</guid>
+				<description>为什么晚高峰看视频不再卡顿？专线传输技术原理深度剖析。</description>
+			</item>
+			<item>
+				<title>低成本小流量年付机场推荐：轻度用户备用首选</title>
+				<link>https://jctjzhinan.xyz/guide/small-annual-plan-airports/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/guide/small-annual-plan-airports/</guid>
+				<description>适合轻度上网与邮件办公的低预算年付备用机场。</description>
+			</item>
+			<item>
+				<title>小白必读：2026 稳定机场挑选 5 大黄金维度</title>
+				<link>https://jctjzhinan.xyz/guide/2026-stable-airport-guide/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/guide/2026-stable-airport-guide/</guid>
+				<description>涵盖线路架构、晚高峰稳定性、平台兼容性与避坑指南。</description>
+			</item>
+			<item>
+				<title>高性价比机场避坑选购：价格、套餐与流量计算法</title>
+				<link>https://jctjzhinan.xyz/guide/cheap-value-airports/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/guide/cheap-value-airports/</guid>
+				<description>教你用最少的预算选到稳定不卡顿的性价比节点。</description>
+			</item>
+	</channel>
+</rss>

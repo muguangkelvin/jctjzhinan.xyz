@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Telegram代理 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/tags/telegram%E4%BB%A3%E7%90%86/</link>
+		<description>Recent content in Telegram代理 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/tags/telegram%E4%BB%A3%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>为什么有时候节点连接成功但无法收发 Telegram 消息？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-097/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-097/</guid>
+				<description>Telegram 专有分流规则与 DC 节点。</description>
+			</item>
+	</channel>
+</rss>

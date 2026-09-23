@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Trojan 协议 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/categories/trojan-%E5%8D%8F%E8%AE%AE/</link>
+		<description>Recent content in Trojan 协议 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/categories/trojan-%E5%8D%8F%E8%AE%AE/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Sing-box 客户端如何配置 Trojan 协议订阅？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-051/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-051/</guid>
+				<description>JSON 配置节点添加指引。</description>
+			</item>
+			<item>
+				<title>Trojan 专线机场适合用来观看 4K 流媒体吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-052/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-052/</guid>
+				<description>大带宽传输与高吞吐效率实测。</description>
+			</item>
+			<item>
+				<title>Trojan 代理协议传输原理与伪装机制是什么？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-043/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-043/</guid>
+				<description>TLS 模仿合法 HTTPS 流量技术解析。</description>
+			</item>
+			<item>
+				<title>Trojan 协议在移动端 (Android/iOS) 耗电量大吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-047/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-047/</guid>
+				<description>TLS 加密解密对系统 CPU 影响分析。</description>
+			</item>
+			<item>
+				<title>Trojan 协议比 SS/V2ray 更抗封锁吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-044/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-044/</guid>
+				<description>域名证书伪装与公网探测识别防范。</description>
+			</item>
+			<item>
+				<title>Trojan 节点提示 Certificate Validation Failed 解决</title>
+				<link>https://jctjzhinan.xyz/faq/faq-048/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-048/</guid>
+				<description>系统根证书更新与跳过证书检查风险。</description>
+			</item>
+			<item>
+				<title>Trojan 节点需要绑定真实域名和 TLS 证书吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-045/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-045/</guid>
+				<description>SNI 校验与证书过期处理。</description>
+			</item>
+			<item>
+				<title>Trojan-Go 和 原版 Trojan 协议有什么改进？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-049/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-049/</guid>
+				<description>WebSockets、Multiplexing 多路复用增强。</description>
+			</item>
+			<item>
+				<title>为什么 Trojan 节点首次连接延迟比较高？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-050/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-050/</guid>
+				<description>TLS 三次握手与 RTT 传输开销。</description>
+			</item>
+			<item>
+				<title>如何在 Windows 上配置 Trojan 专用客户端？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-046/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-046/</guid>
+				<description>Trojan-Go 与 Clash 协议支持说明。</description>
+			</item>
+	</channel>
+</rss>

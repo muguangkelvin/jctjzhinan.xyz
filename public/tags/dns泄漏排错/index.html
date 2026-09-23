@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+  
+
+<title>DNS泄漏排错 ｜ 机场推荐指南</title>
+
+
+
+  
+
+<meta name="description" content="DNS泄漏排错 - 机场推荐指南专业分析与手把手配置教程。">
+
+
+<link rel="canonical" href="http://localhost:1313/tags/dns%E6%B3%84%E6%BC%8F%E6%8E%92%E9%94%99/">
+
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="DNS泄漏排错 ｜ 机场推荐指南">
+<meta property="og:description" content="DNS泄漏排错 - 机场推荐指南专业分析与手把手配置教程。">
+<meta property="og:url" content="http://localhost:1313/tags/dns%E6%B3%84%E6%BC%8F%E6%8E%92%E9%94%99/">
+<meta property="og:site_name" content="机场推荐指南">
+<meta property="og:locale" content="zh_CN">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DNS泄漏排错 ｜ 机场推荐指南">
+<meta name="twitter:description" content="DNS泄漏排错 - 机场推荐指南专业分析与手把手配置教程。">
+
+
+<link rel="alternate" type="application/rss+xml" title="机场推荐指南" href="/index.xml">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <script defer src="/js/main.js"></script>
+</head>
+<body class="site-body">
+  
+<header class="site-header">
+  <div class="header-top-bar">
+    <div class="header-container">
+      <div class="brand-area">
+        <a href="/" class="brand-logo" title="机场推荐指南">
+          <span class="logo-badge">JC</span>
+          <span class="brand-name">机场推荐指南</span>
+        </a>
+        <span class="brand-subtitle">机场推荐、Clash 机场测评与节点选择指南</span>
+      </div>
+      <div class="header-actions">
+        <a href="/recommendations/" class="btn btn-header-cta">查看机场推荐</a>
+        <button id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="切换导航菜单" aria-expanded="false" aria-controls="mobile-nav-menu">
+          <span class="hamburger-icon"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <nav class="header-nav-bar" aria-label="主导航">
+    <div class="header-container">
+      <ul class="nav-list" id="desktop-nav-menu">
+        
+        <li class="nav-item">
+          <a href="/" class="nav-link">
+            首页
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/guide/" class="nav-link">
+            新手指南
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/clients/" class="nav-link">
+            客户端教程
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/scenarios/" class="nav-link">
+            场景专线评测
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/recommendations/" class="nav-link">
+            机场推荐
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/recommendations/value/" class="nav-link">
+            性价比机场
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/recommendations/clash/" class="nav-link">
+            Clash 机场推荐
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/reviews/" class="nav-link">
+            机场测评
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/rankings/" class="nav-link">
+            机场排行榜
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="/faq/" class="nav-link">
+            常见排错与 FAQ
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+
+  
+  <div id="mobile-nav-menu" class="mobile-nav-drawer" aria-hidden="true">
+    <div class="mobile-drawer-header">
+      <span class="mobile-brand-title">机场推荐指南</span>
+      <button id="mobile-menu-close" class="close-btn" aria-label="关闭菜单">&times;</button>
+    </div>
+    <ul class="mobile-nav-list">
+      
+      <li class="mobile-nav-item">
+        <a href="/" class="mobile-nav-link">
+          首页
+        </a>
+      </li>
+      
+      <li class="mobile-nav-item">
+        <a href="/guide/" class="mobile-nav-link">
+          新手指南
+        </a>
+      </li>
+      
+      <li class="mobile-nav-item">
+        <a href="/clients/" class="mobile-nav-link">
+          客户端教程
+        </a>
+      </li>
+      
+      <li class="mobile-nav-item">
+        <a href="/scenarios/" class="mobile-nav-link">
+          场景专线评测
+        </a>
+      </li>
+      
+      <li class="mobile-nav-item">
+        <a href="/recommendations/" class="mobile-nav-link">
+          机场推荐
+        </a>
+      </li>
+      
+      <li class="mobile-nav-item">
+        <a href="/recommendations/value/" class="mobile-nav-link">
+          性价比机场
+        </a>
+      </li>
+      
+      <li class="mobile-nav-item">
+        <a href="/recommendations/clash/" class="mobile-nav-link">
+          Clash 机场推荐
+        </a>
+      </li>
+      
+      <li class="mobile-nav-item">
+        <a href="/reviews/" class="mobile-nav-link">
+          机场测评
+        </a>
+      </li>
+      
+      <li class="mobile-nav-item">
+        <a href="/rankings/" class="mobile-nav-link">
+          机场排行榜
+        </a>
+      </li>
+      
+      <li class="mobile-nav-item">
+        <a href="/faq/" class="mobile-nav-link">
+          常见排错与 FAQ
+        </a>
+      </li>
+      
+    </ul>
+    <div class="mobile-drawer-footer">
+      <a href="/recommendations/" class="btn btn-primary btn-block">查看 2026 稳定机场推荐榜</a>
+    </div>
+  </div>
+</header>
+
+
+  <main id="main-content" class="main-container">
+    
+<div class="list-page-layout">
+  
+<nav class="breadcrumbs-container" aria-label="面包屑导航">
+  <ol class="breadcrumbs-list">
+    <li class="breadcrumb-item"><a href="/">首页</a></li>
+    
+    <li class="breadcrumb-item"><a href="/tags/">Tags</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page">DNS泄漏排错</li>
+  </ol>
+</nav>
+
+
+
+  <header class="list-header">
+    <h1 class="list-title">DNS泄漏排错</h1>
+    
+    <p class="list-description">为您精选与“DNS泄漏排错”相关的深度评测、对比指南与手把手实操教程。</p>
+    
+  </header>
+
+  
+
+  <div class="articles-grid">
+    
+      <article class="article-card">
+  <div class="article-card-header">
+    
+    <span class="card-category">常见问题</span>
+    
+    <time class="card-date" datetime="2026-09-19">2026-09-19</time>
+  </div>
+  <h3 class="article-card-title">
+    <a href="/faq/faq-094/">连接节点后显示 DNS 泄漏怎么彻底解决？</a>
+  </h3>
+  <p class="article-card-summary">
+    启用 DoH / DoT 与fake-ip 规则。
+  </p>
+  <div class="article-card-footer">
+    <span class="read-time">&#9202; 预计阅读 3 分钟</span>
+    <a href="/faq/faq-094/" class="read-more-link">阅读全文 &rarr;</a>
+  </div>
+</article>
+
+    
+  </div>
+
+  
+</div>
+
+  </main>
+
+  
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-brand-section">
+      <div class="footer-logo">
+        <span class="logo-badge">JC</span>
+        <span class="footer-title">机场推荐指南</span>
+      </div>
+      <div class="footer-keywords-summary">
+        <p class="footer-text-para">
+          本站专注当前 2026 年机场推荐、性价比机场、Clash 机场测评与机场节点推荐，持续整理便宜机场、稳定机场、AI 机场推荐、机场订阅、价格套餐、优惠码及购买前须知，为用户提供带核验日期的选购参考。
+        </p>
+        <p class="footer-text-para footer-disclosure-text">
+          【合作与核验说明】本站包含第三方机场服务商的邀请链接与合作推荐，排序基于站内编辑策略与场景匹配。所有价格、流量及节点状态均带核验日期，具体套餐详情请以各服务商当前结算页为准。
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-links-grid">
+      <div class="footer-col">
+        <h4 class="footer-col-title">热门导航</h4>
+        <ul class="footer-links-list">
+          <li><a href="/recommendations/">2026 稳定机场推荐</a></li>
+          <li><a href="/recommendations/value/">性价比便宜机场</a></li>
+          <li><a href="/recommendations/clash/">Clash 专属机场推荐</a></li>
+          <li><a href="/reviews/">机场测评汇总</a></li>
+          <li><a href="/rankings/">机场排行榜</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">教程与排错</h4>
+        <ul class="footer-links-list">
+          <li><a href="/guide/">新手选机场指南</a></li>
+          <li><a href="/clients/">客户端配置教程</a></li>
+          <li><a href="/scenarios/">场景专线评测</a></li>
+          <li><a href="/faq/">常见问题与 FAQ</a></li>
+          <li><a href="/status/">服务状态核验</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">编辑与信任</h4>
+        <ul class="footer-links-list">
+          <li><a href="/about/">关于我们</a></li>
+          <li><a href="/editorial-policy/">编辑原则</a></li>
+          <li><a href="/methodology/">测评方法说明</a></li>
+          <li><a href="/corrections/">纠错与更新政策</a></li>
+          <li><a href="/affiliate-disclosure/">联盟与合作披露</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">条款与订阅</h4>
+        <ul class="footer-links-list">
+          <li><a href="/privacy/">隐私政策</a></li>
+          <li><a href="/terms/">服务条款</a></li>
+          <li><a href="/disclaimer/">免责声明</a></li>
+          <li><a href="/contact/">联系我们</a></li>
+          <li><a href="/sitemap.xml">XML 站点地图</a></li>
+          <li><a href="/index.xml">RSS 订阅</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom-bar">
+      <p class="copyright-text">
+        &copy; 2026 机场推荐指南 (jctjzhinan.xyz). 保留所有权利。
+      </p>
+      <p class="disclaimer-text">
+        声明：第三方软件及商标（如 Clash, Sing-box, Shadowrocket, Surge 等）版权归各自权利人所有，本站为独立技术分享博客，不暗示官方隶属关系。
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+  
+
+</body>
+</html>

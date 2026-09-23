@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>中转与专线 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/tags/%E4%B8%AD%E8%BD%AC%E4%B8%8E%E4%B8%93%E7%BA%BF/</link>
+		<description>Recent content in 中转与专线 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/tags/%E4%B8%AD%E8%BD%AC%E4%B8%8E%E4%B8%93%E7%BA%BF/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>节点列表中显示“BGP 中转”和“IEPL 专线”怎么区分？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-067/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-067/</guid>
+				<description>节点命名规范与后端线路验证。</description>
+			</item>
+	</channel>
+</rss>

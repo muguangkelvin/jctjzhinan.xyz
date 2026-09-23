@@ -1,0 +1,23 @@
+baseURL = "https://jctjzhinan.xyz/"
+locale = "zh-CN"
+title = "机场推荐指南"
+
+summaryLength = 140
+hasCJKLanguage = true
+enableRobotsTXT = true
+
+[params]
+  author = "JC指南编辑部"
+  description = "小白必备的节点选购与客户端配置指南 · 稳定、透明、少踩坑。针对 2026 年各类稳定专线机场推荐、性价比机场选型及 Clash / Sing-box / Shadowrocket 客户端分流设置教程。"
+  keywords = ["机场推荐", "性价比机场", "Clash 机场推荐", "机场测评", "节点推荐", "机场优惠码", "AI 机场推荐", "稳定机场"]
+  logoText = "机场推荐指南"
+  slogan = "小白必备的节点选购与客户端配置指南 · 稳定、透明、少踩坑"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.8

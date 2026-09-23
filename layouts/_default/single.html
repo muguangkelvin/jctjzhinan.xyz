@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div class="article-page-layout">
+  {{ partial "breadcrumbs.html" . }}
+
+  <article class="single-article-content">
+    <header class="article-header">
+      <h1 class="article-title">{{ .Title }}</h1>
+      <div class="article-meta-bar">
+        <span class="meta-item author-meta">&#128100; 作者：{{ .Params.author | default "JC指南编辑部" }}</span>
+        <span class="meta-item date-meta">&#128197; 发布时间：{{ .Date.Format "2006-01-02" }}</span>
+        <span class="meta-item update-meta">&#128260; 最后核验：{{ .Params.lastmod.Format "2006-01-02" | default (.Date.Format "2006-01-02") }}</span>
+        <span class="meta-item readtime-meta">&#9202; 预计阅读：{{ .ReadingTime }} 分钟</span>
+      </div>
+      {{ if .Params.summary }}
+      <div class="article-summary-box">
+        <strong>【内容导读】</strong>{{ .Params.summary }}
+      </div>
+      {{ end }}
+    </header>
+
+    {{ partial "toc.html" . }}
+
+    <div class="article-body">
+      {{ .Content }}
+    </div>
+
+    {{ partial "faq.html" . }}
+
+    <div class="article-disclaimer-box">
+      <p class="disclaimer-title">【合规与使用声明】</p>
+      <p>本站所有内容均用于网络技术科普、远程办公与网络连接排错指导。请遵守相关法律法规，合法合规使用网络工具。本站包含合作伙伴与联盟服务推广链接，价格与套餐状态均以各服务商第三方结算页面为准。</p>
+    </div>
+
+    {{ partial "related_content.html" . }}
+  </article>
+</div>
+{{ end }}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>排错与合规 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/categories/%E6%8E%92%E9%94%99%E4%B8%8E%E5%90%88%E8%A7%84/</link>
+		<description>Recent content in 排错与合规 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/categories/%E6%8E%92%E9%94%99%E4%B8%8E%E5%90%88%E8%A7%84/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>为什么有时候节点连接成功但无法收发 Telegram 消息？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-097/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-097/</guid>
+				<description>Telegram 专有分流规则与 DC 节点。</description>
+			</item>
+			<item>
+				<title>代理内核提示“System Time Mismatch”时间不同步</title>
+				<link>https://jctjzhinan.xyz/faq/faq-096/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-096/</guid>
+				<description>Windows/Mac 电脑自动校准时间。</description>
+			</item>
+			<item>
+				<title>使用机场服务进行网络访问的合规边界提醒</title>
+				<link>https://jctjzhinan.xyz/faq/faq-098/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-098/</guid>
+				<description>合法合规使用网络与安全意识。</description>
+			</item>
+			<item>
+				<title>如何提交有效的机场服务纠错与工单反馈？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-100/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-100/</guid>
+				<description>日志截图、节点名称与网络环境说明。</description>
+			</item>
+			<item>
+				<title>打开代理后打不开百度、微信等国内网页解决</title>
+				<link>https://jctjzhinan.xyz/faq/faq-093/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-093/</guid>
+				<description>分流规则误判与 DNS 缓存清理。</description>
+			</item>
+			<item>
+				<title>提示“1020 Access Denied”报错排查方法</title>
+				<link>https://jctjzhinan.xyz/faq/faq-095/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-095/</guid>
+				<description>Cloudflare 节点 IP 封禁解决。</description>
+			</item>
+			<item>
+				<title>电脑休眠唤醒后代理软件无响应怎么办？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-099/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-099/</guid>
+				<description>自动重启代理服务与网卡重置。</description>
+			</item>
+			<item>
+				<title>连接节点后显示 DNS 泄漏怎么彻底解决？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-094/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-094/</guid>
+				<description>启用 DoH / DoT 与fake-ip 规则。</description>
+			</item>
+	</channel>
+</rss>

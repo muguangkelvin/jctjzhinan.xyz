@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Clash 客户端 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/categories/clash-%E5%AE%A2%E6%88%B7%E7%AB%AF/</link>
+		<description>Recent content in Clash 客户端 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/categories/clash-%E5%AE%A2%E6%88%B7%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Clash Meta 内核与 Alpha 内核选哪个更好？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-023/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-023/</guid>
+				<description>新协议支持与内存占用对比。</description>
+			</item>
+			<item>
+				<title>Clash Verge Rev 如何导入订阅链接？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-019/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-019/</guid>
+				<description>Windows 与 Mac 端一键复制导入操作全流程。</description>
+			</item>
+			<item>
+				<title>Clash Verge 的备份与跨设备同步配置方法</title>
+				<link>https://jctjzhinan.xyz/faq/faq-032/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-032/</guid>
+				<description>配置文件导出与多电脑快速恢复。</description>
+			</item>
+			<item>
+				<title>Clash 占用内存过高怎么优化设置？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-025/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-025/</guid>
+				<description>日志级别调整与轻量内核替换指引。</description>
+			</item>
+			<item>
+				<title>Clash 开启 TUN 模式后无网络连接怎么办？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-021/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-021/</guid>
+				<description>网卡冲突、防火墙拦截与服务安装解决。</description>
+			</item>
+			<item>
+				<title>Clash 混合配置 (Mixin) 和预处理 (Script) 怎么用？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-026/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-026/</guid>
+				<description>进阶用户的规则脚本自定义功能。</description>
+			</item>
+			<item>
+				<title>Clash 的 DNS 泄漏防范设置应该怎么选？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-028/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-028/</guid>
+				<description>fake-ip 与 redir-host 模式区别。</description>
+			</item>
+			<item>
+				<title>Clash 的 Rule 规则模式与 Global 全局模式有什么区别？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-020/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-020/</guid>
+				<description>智能按需分流与全量代理模式详解。</description>
+			</item>
+			<item>
+				<title>Clash 订阅更新失败提示 Network Error 怎么排障？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-022/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-022/</guid>
+				<description>代理域名污染、系统时间不同步故障处理。</description>
+			</item>
+			<item>
+				<title>Clash 订阅链接如何转换为 Sing-box 格式？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-031/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-031/</guid>
+				<description>在线转换工具与本地转换安全性分析。</description>
+			</item>
+			<item>
+				<title>Clash 连接提示 Port is already in use 报错解决</title>
+				<link>https://jctjzhinan.xyz/faq/faq-029/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-029/</guid>
+				<description>7890 端口冲突排查与更改端口方法。</description>
+			</item>
+			<item>
+				<title>Windows 开机自启 Clash 失败怎么解决？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-027/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-027/</guid>
+				<description>管理员权限与系统服务依赖项配置。</description>
+			</item>
+			<item>
+				<title>如何在 Clash 中手动修改节点分组与分流规则？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-024/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-024/</guid>
+				<description>YAML 配置文件修改与自建组解析。</description>
+			</item>
+			<item>
+				<title>如何在 Mac 上安装配置 Clash Verge？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-030/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-030/</guid>
+				<description>macOS 依赖授权与系统代理开关操作。</description>
+			</item>
+	</channel>
+</rss>

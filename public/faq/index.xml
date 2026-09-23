@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>常见问题与 FAQ 排错中心 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/faq/</link>
+		<description>Recent content in 常见问题与 FAQ 排错中心 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/faq/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>2026年新手第一次选机场应该注意什么？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-001/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-001/</guid>
+				<description>针对新手小白的 5 大选选型指标解析。</description>
+			</item>
+			<item>
+				<title>Android 手机推荐使用什么客户端软件？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-087/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-087/</guid>
+				<description>Clash Meta for Android 与 Sing-box。</description>
+			</item>
+			<item>
+				<title>Clash Meta 内核与 Alpha 内核选哪个更好？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-023/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-023/</guid>
+				<description>新协议支持与内存占用对比。</description>
+			</item>
+			<item>
+				<title>Clash Verge Rev 如何导入订阅链接？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-019/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-019/</guid>
+				<description>Windows 与 Mac 端一键复制导入操作全流程。</description>
+			</item>
+			<item>
+				<title>Clash Verge 的备份与跨设备同步配置方法</title>
+				<link>https://jctjzhinan.xyz/faq/faq-032/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-032/</guid>
+				<description>配置文件导出与多电脑快速恢复。</description>
+			</item>
+			<item>
+				<title>Clash 占用内存过高怎么优化设置？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-025/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-025/</guid>
+				<description>日志级别调整与轻量内核替换指引。</description>
+			</item>
+			<item>
+				<title>Clash 开启 TUN 模式后无网络连接怎么办？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-021/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-021/</guid>
+				<description>网卡冲突、防火墙拦截与服务安装解决。</description>
+			</item>
+			<item>
+				<title>Clash 混合配置 (Mixin) 和预处理 (Script) 怎么用？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-026/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-026/</guid>
+				<description>进阶用户的规则脚本自定义功能。</description>
+			</item>
+			<item>
+				<title>Clash 的 DNS 泄漏防范设置应该怎么选？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-028/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-028/</guid>
+				<description>fake-ip 与 redir-host 模式区别。</description>
+			</item>
+			<item>
+				<title>Clash 的 Rule 规则模式与 Global 全局模式有什么区别？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-020/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-020/</guid>
+				<description>智能按需分流与全量代理模式详解。</description>
+			</item>
+			<item>
+				<title>Clash 订阅更新失败提示 Network Error 怎么排障？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-022/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-022/</guid>
+				<description>代理域名污染、系统时间不同步故障处理。</description>
+			</item>
+			<item>
+				<title>Clash 订阅链接如何转换为 Sing-box 格式？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-031/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-031/</guid>
+				<description>在线转换工具与本地转换安全性分析。</description>
+			</item>
+			<item>
+				<title>Clash 连接提示 Port is already in use 报错解决</title>
+				<link>https://jctjzhinan.xyz/faq/faq-029/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-029/</guid>
+				<description>7890 端口冲突排查与更改端口方法。</description>
+			</item>
+			<item>
+				<title>IEPL专线机场真的能做到晚高峰不卡顿吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-005/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-005/</guid>
+				<description>解析内网专线物理传输原理与性能保障。</description>
+			</item>
+			<item>
+				<title>iOS 上哪些客户端原生支持 SS 2022 协议？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-041/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-041/</guid>
+				<description>Shadowrocket、Surge 与 Loon 兼容列表。</description>
+			</item>
+			<item>
+				<title>iPad 设备使用小火箭 Shadowrocket 设置步骤</title>
+				<link>https://jctjzhinan.xyz/faq/faq-092/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-092/</guid>
+				<description>分屏操作与节点导入。</description>
+			</item>
+			<item>
+				<title>iPhone 和 Mac 电脑怎么共享同一份订阅？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-086/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-086/</guid>
+				<description>利用 iCloud 同步或手动复制订阅 URL。</description>
+			</item>
+			<item>
+				<title>Shadowsocks (SS) 协议现在还稳定安全吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-033/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-033/</guid>
+				<description>SS 协议发展历史与现代 AEAD 加密现状。</description>
+			</item>
+			<item>
+				<title>Shadowsocks 和 ShadowsocksR (SSR) 有何区别？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-037/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-037/</guid>
+				<description>混淆协议混淆插件与历史分支说明。</description>
+			</item>
+			<item>
+				<title>Shadowsocks 插件 (obfs / v2ray-plugin) 作用</title>
+				<link>https://jctjzhinan.xyz/faq/faq-040/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-040/</guid>
+				<description>流量伪装与 WebSockets 传输配置。</description>
+			</item>
+			<item>
+				<title>Shadowsocks 节点在晚高峰容易丢包原因解析</title>
+				<link>https://jctjzhinan.xyz/faq/faq-035/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-035/</guid>
+				<description>公网中转与墙的阻断特征识别。</description>
+			</item>
+			<item>
+				<title>Sing-box 客户端如何配置 Trojan 协议订阅？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-051/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-051/</guid>
+				<description>JSON 配置节点添加指引。</description>
+			</item>
+			<item>
+				<title>SS 协议支持 UDP 转发吗？如何开启？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-038/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-038/</guid>
+				<description>游戏语音与联机 UDP 代理设置。</description>
+			</item>
+			<item>
+				<title>SS 协议的 2022 新标准有哪些性能提升？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-034/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-034/</guid>
+				<description>抗主动探测与报文头加密增强机制。</description>
+			</item>
+			<item>
+				<title>Trojan 专线机场适合用来观看 4K 流媒体吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-052/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-052/</guid>
+				<description>大带宽传输与高吞吐效率实测。</description>
+			</item>
+			<item>
+				<title>Trojan 代理协议传输原理与伪装机制是什么？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-043/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-043/</guid>
+				<description>TLS 模仿合法 HTTPS 流量技术解析。</description>
+			</item>
+			<item>
+				<title>Trojan 协议在移动端 (Android/iOS) 耗电量大吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-047/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-047/</guid>
+				<description>TLS 加密解密对系统 CPU 影响分析。</description>
+			</item>
+			<item>
+				<title>Trojan 协议比 SS/V2ray 更抗封锁吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-044/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-044/</guid>
+				<description>域名证书伪装与公网探测识别防范。</description>
+			</item>
+			<item>
+				<title>Trojan 节点提示 Certificate Validation Failed 解决</title>
+				<link>https://jctjzhinan.xyz/faq/faq-048/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-048/</guid>
+				<description>系统根证书更新与跳过证书检查风险。</description>
+			</item>
+			<item>
+				<title>Trojan 节点需要绑定真实域名和 TLS 证书吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-045/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-045/</guid>
+				<description>SNI 校验与证书过期处理。</description>
+			</item>
+			<item>
+				<title>Trojan-Go 和 原版 Trojan 协议有什么改进？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-049/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-049/</guid>
+				<description>WebSockets、Multiplexing 多路复用增强。</description>
+			</item>
+			<item>
+				<title>Windows 开机自启 Clash 失败怎么解决？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-027/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-027/</guid>
+				<description>管理员权限与系统服务依赖项配置。</description>
+			</item>
+			<item>
+				<title>一个机场订阅链接可以在多台设备上同时使用吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-085/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-085/</guid>
+				<description>限制同时在线 IP 规则说明。</description>
+			</item>
+			<item>
+				<title>为什么 SS 节点导入后显示 Timeout 超时？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-039/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-039/</guid>
+				<description>端口封锁、服务商节点维护排查。</description>
+			</item>
+			<item>
+				<title>为什么 Trojan 节点首次连接延迟比较高？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-050/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-050/</guid>
+				<description>TLS 三次握手与 RTT 传输开销。</description>
+			</item>
+			<item>
+				<title>为什么不同机场同为 100GB 价格差异很大？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-082/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-082/</guid>
+				<description>专线成本、入口带宽与服务质量。</description>
+			</item>
+			<item>
+				<title>为什么有时候节点连接成功但无法收发 Telegram 消息？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-097/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-097/</guid>
+				<description>Telegram 专有分流规则与 DC 节点。</description>
+			</item>
+			<item>
+				<title>为什么节点名称里的 0.1x 廉价节点下载特别慢？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-069/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-069/</guid>
+				<description>带宽限制与共享资源池。</description>
+			</item>
+			<item>
+				<title>为什么解锁 Netflix / Disney&#43; 需要原生 IP 节点？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-062/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-062/</guid>
+				<description>广播 IP 与机房 IP 数据库识别。</description>
+			</item>
+			<item>
+				<title>代理内核提示“System Time Mismatch”时间不同步</title>
+				<link>https://jctjzhinan.xyz/faq/faq-096/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-096/</guid>
+				<description>Windows/Mac 电脑自动校准时间。</description>
+			</item>
+			<item>
+				<title>企业团队共享套餐与个人套餐有何限制区别？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-084/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-084/</guid>
+				<description>同时在线 IP 数与并发连接上限。</description>
+			</item>
+			<item>
+				<title>低流量年付套餐适合哪些使用人群？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-006/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-006/</guid>
+				<description>轻度网页浏览与邮件发送用户的省钱选择。</description>
+			</item>
+			<item>
+				<title>使用优惠码提示“Invalid Coupon”失效怎么处理？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-076/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-076/</guid>
+				<description>适用于部分套餐限制与过期核对。</description>
+			</item>
+			<item>
+				<title>使用机场服务进行网络访问的合规边界提醒</title>
+				<link>https://jctjzhinan.xyz/faq/faq-098/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-098/</guid>
+				<description>合法合规使用网络与安全意识。</description>
+			</item>
+			<item>
+				<title>使用梯子连接海外银行或支付工具注意事项</title>
+				<link>https://jctjzhinan.xyz/faq/faq-059/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-059/</guid>
+				<description>固定 IP 与安全验证防锁卡。</description>
+			</item>
+			<item>
+				<title>免费机场和付费机场有什么安全隐患？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-009/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-009/</guid>
+				<description>数据隐私泄露、广告弹窗与恶意抓包警告。</description>
+			</item>
+			<item>
+				<title>公司电脑或企业内网安装梯子软件风险</title>
+				<link>https://jctjzhinan.xyz/faq/faq-060/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-060/</guid>
+				<description>合规审计与网络安全边界。</description>
+			</item>
+			<item>
+				<title>公网中转节点和直连节点区别有多大？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-017/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-017/</guid>
+				<description>入口 BGP 转发对断连率的改善效果。</description>
+			</item>
+			<item>
+				<title>公网梯子节点延迟过高怎么优化排查？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-056/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-056/</guid>
+				<description>本地 DNS 优化与中转节点选择。</description>
+			</item>
+			<item>
+				<title>冷门地区节点 (如阿根廷、土耳其) 有什么用？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-068/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-068/</guid>
+				<description>低价区订阅与特定业务需求。</description>
+			</item>
+			<item>
+				<title>口语常说的“梯子”与正式网络节点有什么联系？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-053/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-053/</guid>
+				<description>网络代理、VPN 与机场术语科普。</description>
+			</item>
+			<item>
+				<title>台湾节点在看巴哈姆特/动画疯方面的优势</title>
+				<link>https://jctjzhinan.xyz/faq/faq-066/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-066/</guid>
+				<description>版权限制与地区限定服务解锁。</description>
+			</item>
+			<item>
+				<title>备用机场有必要购买吗？怎么搭配最省钱？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-004/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-004/</guid>
+				<description>一主一备最佳网络冗余配置建议。</description>
+			</item>
+			<item>
+				<title>多地区出口 IP 节点有什么实际作用？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-012/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-012/</guid>
+				<description>解锁不同国家流媒体与海外业务需求。</description>
+			</item>
+			<item>
+				<title>大流量机场套餐成本如何计算？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-007/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-007/</guid>
+				<description>TB 级别影音与下载用户的计费模型。</description>
+			</item>
+			<item>
+				<title>套餐流量用完了临时怎么加购流量包？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-081/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-081/</guid>
+				<description>后台重置流量或购买一次性扩展包。</description>
+			</item>
+			<item>
+				<title>如何判断一家机场服务商是否随时可能跑路？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-008/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-008/</guid>
+				<description>域名注册年限、客服响应与套餐结构特征。</description>
+			</item>
+			<item>
+				<title>如何在 Clash 中手动修改节点分组与分流规则？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-024/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-024/</guid>
+				<description>YAML 配置文件修改与自建组解析。</description>
+			</item>
+			<item>
+				<title>如何在 Clash 里设置一键重置订阅信息？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-090/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-090/</guid>
+				<description>后台重置密钥与客户端重新导入。</description>
+			</item>
+			<item>
+				<title>如何在 Mac 上安装配置 Clash Verge？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-030/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-030/</guid>
+				<description>macOS 依赖授权与系统代理开关操作。</description>
+			</item>
+			<item>
+				<title>如何在 Windows 上配置 Trojan 专用客户端？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-046/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-046/</guid>
+				<description>Trojan-Go 与 Clash 协议支持说明。</description>
+			</item>
+			<item>
+				<title>如何提交有效的机场服务纠错与工单反馈？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-100/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-100/</guid>
+				<description>日志截图、节点名称与网络环境说明。</description>
+			</item>
+			<item>
+				<title>如何检查自己的节点出口 IP 是否干净？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-071/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-071/</guid>
+				<description>IP138、Scamalytics 风控分检测。</description>
+			</item>
+			<item>
+				<title>如何测试本地网络对某机场节点的实际延迟？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-016/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-016/</guid>
+				<description>Ping、TCPing 与真实 HTTP 下载测速法。</description>
+			</item>
+			<item>
+				<title>如何识别虚假营销的“全网最快梯子”？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-058/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-058/</guid>
+				<description>真实测速指标与夸大文案辨析。</description>
+			</item>
+			<item>
+				<title>如何配置 Shadowsocks 客户端代理参数？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-036/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-036/</guid>
+				<description>服务器地址、端口、密码与加密方式输入。</description>
+			</item>
+			<item>
+				<title>年付优惠套餐相比月付套餐能省多少钱？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-080/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-080/</guid>
+				<description>打折幅度与风险折现衡量。</description>
+			</item>
+			<item>
+				<title>影音看4K视频需要多大的节点带宽？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-011/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-011/</guid>
+				<description>码率要求与机场单节点峰值速率分析。</description>
+			</item>
+			<item>
+				<title>性价比机场和高价专线机场主要区别在哪？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-002/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-002/</guid>
+				<description>深入对比价格、延迟与晚高峰稳定性差异。</description>
+			</item>
+			<item>
+				<title>打开代理后打不开百度、微信等国内网页解决</title>
+				<link>https://jctjzhinan.xyz/faq/faq-093/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-093/</guid>
+				<description>分流规则误判与 DNS 缓存清理。</description>
+			</item>
+			<item>
+				<title>按月付费 20 元/月 120GB 流量够普通人用吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-079/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-079/</guid>
+				<description>日常刷网页、微信与看视频流量预算。</description>
+			</item>
+			<item>
+				<title>按量计费 (一次性流量包) 机场划算吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-013/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-013/</guid>
+				<description>无过期时间流量包与按月套餐选择对比。</description>
+			</item>
+			<item>
+				<title>提示“1020 Access Denied”报错排查方法</title>
+				<link>https://jctjzhinan.xyz/faq/faq-095/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-095/</guid>
+				<description>Cloudflare 节点 IP 封禁解决。</description>
+			</item>
+			<item>
+				<title>支付时提示“风险交易限制”如何顺利完成订购？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-083/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-083/</guid>
+				<description>更换支付通道与提交工单。</description>
+			</item>
+			<item>
+				<title>新开业的机场推荐购买吗？有什么风险？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-015/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-015/</guid>
+				<description>高性价比引流与后期质量下滑防范。</description>
+			</item>
+			<item>
+				<title>智能电视 (Android TV) 怎么安装代理软件？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-091/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-091/</guid>
+				<description>APK 简易安装与遥控器操作配合。</description>
+			</item>
+			<item>
+				<title>月付机场和年付机场哪个更划算？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-003/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-003/</guid>
+				<description>分析不同付费周期下跑路风险与资金安全。</description>
+			</item>
+			<item>
+				<title>机场套餐到期后如果不续费会自动扣款吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-077/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-077/</guid>
+				<description>预付费模式与支付宝/微信手动支付。</description>
+			</item>
+			<item>
+				<title>机场套餐里的流量是按月重置还是按自然月算？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-075/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-075/</guid>
+				<description>账单日重置与每月1号重置区别。</description>
+			</item>
+			<item>
+				<title>机场服务商宣称的“无限流量”靠谱吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-014/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-014/</guid>
+				<description>合理使用原则 (FUP) 与带宽限制真相。</description>
+			</item>
+			<item>
+				<title>梯子工具会导致国内应用访问变慢吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-057/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-057/</guid>
+				<description>PAC 规则与 Bypass 中国 IP 设置。</description>
+			</item>
+			<item>
+				<title>电脑休眠唤醒后代理软件无响应怎么办？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-099/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-099/</guid>
+				<description>自动重启代理服务与网卡重置。</description>
+			</item>
+			<item>
+				<title>网上免费公开的梯子节点能长期用吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-055/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-055/</guid>
+				<description>钓鱼节点、中继窃听与安全隐患。</description>
+			</item>
+			<item>
+				<title>美国节点延迟高达 180ms 适合哪些使用场景？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-064/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-064/</guid>
+				<description>AI 办公、大流量下载与网页浏览。</description>
+			</item>
+			<item>
+				<title>自建 SS 节点和购买 SS 专线机场哪个划算？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-042/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-042/</guid>
+				<description>IP 被墙成本与专线带宽利用率分析。</description>
+			</item>
+			<item>
+				<title>节点倍率 (1x, 2x, 0.5x) 是什么意思？怎么扣流量？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-063/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-063/</guid>
+				<description>倍率计算法与流量消耗统计。</description>
+			</item>
+			<item>
+				<title>节点列表中显示“BGP 中转”和“IEPL 专线”怎么区分？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-067/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-067/</guid>
+				<description>节点命名规范与后端线路验证。</description>
+			</item>
+			<item>
+				<title>节点突然全部显示“Timeout 超时”紧急处理清单</title>
+				<link>https://jctjzhinan.xyz/faq/faq-074/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-074/</guid>
+				<description>本地网络断网、订阅到期与后端故障。</description>
+			</item>
+			<item>
+				<title>节点自动选择 (Auto) 模式好用吗？缺点是什么？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-070/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-070/</guid>
+				<description>频繁跳 IP 导致登录失效风险。</description>
+			</item>
+			<item>
+				<title>英国/欧洲节点适合哪些跨境业务？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-073/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-073/</guid>
+				<description>欧洲电商、GDPR 合规测试使用。</description>
+			</item>
+			<item>
+				<title>订阅链接泄露给别人会有什么严重后果？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-089/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-089/</guid>
+				<description>流量被盗刷、账号被封禁紧急重置。</description>
+			</item>
+			<item>
+				<title>购买了套餐发现速度不满意可以申请退款吗？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-078/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-078/</guid>
+				<description>大多数机场无退款条款与测试建议。</description>
+			</item>
+			<item>
+				<title>路由器刷 OpenWrt 部署 Clash 教程概要</title>
+				<link>https://jctjzhinan.xyz/faq/faq-088/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-088/</guid>
+				<description>全家设备免安装客户端代理。</description>
+			</item>
+			<item>
+				<title>远程办公应该选择什么样的网络节点？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-010/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-010/</guid>
+				<description>固定 IP、低抖动与不跳 IP 专线配置。</description>
+			</item>
+			<item>
+				<title>连接节点后显示 DNS 泄漏怎么彻底解决？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-094/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-094/</guid>
+				<description>启用 DoH / DoT 与fake-ip 规则。</description>
+			</item>
+			<item>
+				<title>选择机场时客服售后支持有多重要？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-018/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-018/</guid>
+				<description>工单响应时间与 Telegram 社区活跃度。</description>
+			</item>
+			<item>
+				<title>选择梯子工具时如何防范个人隐私泄露？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-054/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-054/</guid>
+				<description>HTTPS 加密传输与日志记录防范。</description>
+			</item>
+			<item>
+				<title>韩国节点对于韩服游戏联机的延迟表现</title>
+				<link>https://jctjzhinan.xyz/faq/faq-072/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-072/</guid>
+				<description>直连线路与电竞专线延迟。</description>
+			</item>
+			<item>
+				<title>香港节点、日本节点与新加坡节点怎么选？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-061/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-061/</guid>
+				<description>物理距离、延迟与物理路由差异。</description>
+			</item>
+			<item>
+				<title>香港节点为什么有时候看 Google 会跳验证码？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-065/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-065/</guid>
+				<description>多用户共享出口 IP 风控解释。</description>
+			</item>
+	</channel>
+</rss>

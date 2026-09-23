@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Clash内存优化 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/tags/clash%E5%86%85%E5%AD%98%E4%BC%98%E5%8C%96/</link>
+		<description>Recent content in Clash内存优化 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/tags/clash%E5%86%85%E5%AD%98%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Clash 占用内存过高怎么优化设置？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-025/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-025/</guid>
+				<description>日志级别调整与轻量内核替换指引。</description>
+			</item>
+	</channel>
+</rss>
