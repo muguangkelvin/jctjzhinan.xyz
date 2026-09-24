@@ -33,52 +33,52 @@ author: "JC指南编辑部"
    - **起步价格**：16 元/月 (基础流量 110GB/月)
    - **专属优惠码**：`lingdong` (8 折优惠)
    - **适合场景**：灵动随心、月付无压力、全平台兼容与节点极速连接。
-   - **购买通道**：[查看灵动云测评](/providers/lingdong-cloud/) | [前往灵动云官网查看当前套餐](https://varnexa.lingdongaff.com/#/?code=JoIy7bO1)
+   - **购买通道**：[前往灵动云官网查看当前套餐](https://varnexa.lingdongaff.com/#/?code=JoIy7bO1)
 
 2. **暮光网络 (Twilight Accent)** — **【TOP 2 影音与 AI 专线】**
    - **核心优势**：大带宽影音优化专线，晚高峰表现优异，完美支持 4K 8K 流媒体解锁与 AI 工具连接。
    - **起步价格**：20 元/月 (基础流量 120GB/月)
    - **专属优惠码**：`mm88` (8 折优惠)
    - **适合场景**：4K/8K 极速影音、ChatGPT / Claude 办公。
-   - **购买通道**：[查看暮光网络测评](/providers/twilight/) | [前往暮光网络官网查看当前套餐](https://varnexa.twilightaff.com/#/?code=KvGly3jY)
+   - **购买通道**：[前往暮光网络官网查看当前套餐](https://varnexa.twilightaff.com/#/?code=KvGly3jY)
 
 3. **飞猫云 (Flycat Cloud)** — **【TOP 3 低成本备用】**
    - **核心优势**：小流量低成本年付首选，提供自研一键客户端与 IEPL 专线节点，适合新手小白入门与日常办公备用。
    - **起步价格**：84 元/年 (折合 7 元/月，基础流量 50GB/月)
    - **专属优惠码**：`flycat888` (新用户季付及以上 8 折)
    - **适合场景**：轻量备用、香港线路需求、多设备家庭。
-   - **购买通道**：[查看飞猫云测评](/providers/flycat-cloud/) | [前往飞猫云官网查看当前套餐](https://flycat1.flycatvipaff.cc/#/?code=FOdfcRFH)
+   - **购买通道**：[前往飞猫云官网查看当前套餐](https://flycat1.flycatvipaff.cc/#/?code=FOdfcRFH)
 
 4. **微风网络 (BreezeNet)** — **【TOP 4 轻量稳定】**
    - **核心优势**：轻量稳定节点方案，界面简洁友好，支持各主流平台客户端订阅一键导入。
    - **起步价格**：以结算页为准 (基础流量 100GB/月)
    - **专属优惠码**：暂无优惠码
    - **适合场景**：轻度使用、低流量年付、第三方订阅导入。
-   - **购买通道**：[查看微风网络测评](/providers/breezenet/) | [前往微风网络官网查看当前套餐](https://edp01.breezenetaff.com/#/?code=He4n3zxg)
+   - **购买通道**：[前往微风网络官网查看当前套餐](https://edp01.breezenetaff.com/#/?code=He4n3zxg)
 
 5. **隐形人 (Invisible Cloud)** — **【TOP 5 隐私防护】**
    - **核心优势**：注重传输层加密与隐私防护，提供极度干净的出口 IP 环境。
    - **起步价格**：20 元/月 (基础流量 150GB/月)
    - **专属优惠码**：`invisible`
-   - **购买通道**：[查看隐形人测评](/providers/invisible-cloud/) | [前往隐形人官网查看当前套餐](https://varnexa.invisibleaff.com/#/?code=FlyoraeM)
+   - **购买通道**：[前往隐形人官网查看当前套餐](https://varnexa.invisibleaff.com/#/?code=FlyoraeM)
 
 6. **浪网 WaveNet** — **【TOP 6 冲浪优选】**
    - **核心优势**：覆盖美、日、港、台、新、韩等热门地区节点，冲浪体验良好。
    - **起步价格**：18 元/月 (基础流量 120GB/月)
    - **专属优惠码**：`wave2026`
-   - **购买通道**：[查看浪网测评](/providers/wavenet/) | [前往浪网官网查看当前套餐](https://varnexa.wavenetaff.com/#/?code=a9HF4LBZ)
+   - **购买通道**：[前往浪网官网查看当前套餐](https://varnexa.wavenetaff.com/#/?code=a9HF4LBZ)
 
 7. **梯子云 LadderCloud** — **【TOP 7 经典专线】**
    - **核心优势**：品牌专名机场，运营稳定，线路节点延迟表现符合预期。
    - **起步价格**：21 元/月 (基础流量 160GB/月)
    - **专属优惠码**：`ladder88`
-   - **购买通道**：[查看梯子云测评](/providers/ladder-cloud/) | [前往梯子云官网查看当前套餐](https://varnexa.ladderaff.com/#/?code=bYVSMHMh)
+   - **购买通道**：[前往梯子云官网查看当前套餐](https://varnexa.ladderaff.com/#/?code=bYVSMHMh)
 
 8. **飞V (FlyV Cloud)** — **【TOP 8 多并发畅连】**
    - **核心优势**：支持不限设备数并发连接，性价比出众。
    - **起步价格**：17 元/月 (基础流量 100GB/月)
    - **专属优惠码**：`flyv2026`
-   - **购买通道**：[查看飞V测评](/providers/flyv-cloud/) | [前往飞V官网查看当前套餐](https://varnexa.flyvaff.com/#/?code=qaMgTyhY)
+   - **购买通道**：[前往飞V官网查看当前套餐](https://varnexa.flyvaff.com/#/?code=qaMgTyhY)
 
 ---
 

@@ -32,25 +32,25 @@ Clash 客户端的核心优势在于其强大的自定义规则分流与 TUN 模
    - **核心优势**：一键导入 Clash 订阅，规则匹配精准，支持 TUN 模式全流量接管。
    - **参考价格**：16 元/月 (110GB/月)
    - **专属优惠码**：`lingdong` (8 折)
-   - **购买通道**：[查看灵动云测评](/providers/lingdong-cloud/) | [前往官网订购](https://varnexa.lingdongaff.com/#/?code=JoIy7bO1)
+   - **购买通道**：[前往官网订购](https://varnexa.lingdongaff.com/#/?code=JoIy7bO1)
 
 2. **暮光网络 (Twilight Accent)** — **【Clash 大带宽影音专线】**
    - **核心优势**：4K/8K 节点支持 Clash 规则分流，支持 OpenAI/ChatGPT 风控 IP 隔离。
    - **参考价格**：20 元/月 (120GB/月)
    - **专属优惠码**：`mm88` (8 折)
-   - **购买通道**：[查看暮光网络测评](/providers/twilight/) | [前往官网订购](https://varnexa.twilightaff.com/#/?code=KvGly3jY)
+   - **购买通道**：[前往官网订购](https://varnexa.twilightaff.com/#/?code=KvGly3jY)
 
 3. **飞猫云 (Flycat Cloud)** — **【Clash 轻量 IEPL 专线】**
    - **核心优势**：IEPL 端到端物理专线，完美适配 Clash 各种内核，抗封锁能力强。
    - **参考价格**：84 元/年 (折合 7 元/月)
    - **专属优惠码**：`flycat888` (8 折)
-   - **购买通道**：[查看飞猫云测评](/providers/flycat-cloud/) | [前往官网订购](https://flycat1.flycatvipaff.cc/#/?code=FOdfcRFH)
+   - **购买通道**：[前往官网订购](https://flycat1.flycatvipaff.cc/#/?code=FOdfcRFH)
 
 4. **微风网络 (BreezeNet)** — **【Clash 简易快速导入】**
    - **核心优势**：后台节点托管一键复制，适合新手第一次配置 Clash 客户端。
    - **参考价格**：以结算页为准 (100GB/月)
    - **专属优惠码**：暂无优惠码
-   - **购买通道**：[查看微风网络测评](/providers/breezenet/) | [前往官网订购](https://edp01.breezenetaff.com/#/?code=He4n3zxg)
+   - **购买通道**：[前往官网订购](https://edp01.breezenetaff.com/#/?code=He4n3zxg)
 
 ---
 

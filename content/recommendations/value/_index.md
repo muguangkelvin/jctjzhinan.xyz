@@ -32,30 +32,30 @@ author: "JC指南编辑部"
    - **参考价格**：16 元/月 (110GB 基础流量)
    - **专属优惠码**：`lingdong` (8 折优惠)
    - **线路特色**：全节点中转与 BGP 接入，响应极快，月付无压力。
-   - **快速入口**：[查看灵动云测评](/providers/lingdong-cloud/) | [前往灵动云官网查看套餐](https://varnexa.lingdongaff.com/#/?code=JoIy7bO1)
+   - **快速入口**：[前往灵动云官网查看套餐](https://varnexa.lingdongaff.com/#/?code=JoIy7bO1)
 
 2. **暮光网络 (Twilight Accent)** — **【影音大流量性价比】**
    - **参考价格**：20 元/月 (120GB 基础流量)
    - **专属优惠码**：`mm88` (8 折优惠)
    - **线路特色**：4K 影音优化线路，支持多设备同时在线。
-   - **快速入口**：[查看暮光网络测评](/providers/twilight/) | [前往暮光网络官网查看套餐](https://varnexa.twilightaff.com/#/?code=KvGly3jY)
+   - **快速入口**：[前往暮光网络官网查看套餐](https://varnexa.twilightaff.com/#/?code=KvGly3jY)
 
 3. **飞猫云 (Flycat Cloud)** — **【极致年付低成本】**
    - **参考价格**：84 元/年 (折合仅 7 元/月)
    - **专属优惠码**：`flycat888` (新用户 8 折)
    - **线路特色**：超低门槛年付，提供 IEPL 专线，适合日常办公与轻量备用。
-   - **快速入口**：[查看飞猫云测评](/providers/flycat-cloud/) | [前往飞猫云官网查看套餐](https://flycat1.flycatvipaff.cc/#/?code=FOdfcRFH)
+   - **快速入口**：[前往飞猫云官网查看套餐](https://flycat1.flycatvipaff.cc/#/?code=FOdfcRFH)
 
 4. **微风网络 (BreezeNet)** — **【轻量实惠方案】**
    - **参考价格**：以结算页特惠价为准 (100GB/月)
    - **专属优惠码**：暂无优惠码
    - **线路特色**：界面友好，订阅一键导入，无隐性扣费。
-   - **快速入口**：[查看微风网络测评](/providers/breezenet/) | [前往微风网络官网查看套餐](https://edp01.breezenetaff.com/#/?code=He4n3zxg)
+   - **快速入口**：[前往微风网络官网查看套餐](https://edp01.breezenetaff.com/#/?code=He4n3zxg)
 
 5. **飞V (FlyV Cloud)** — **【不限设备数实惠款】**
    - **参考价格**：17 元/月 (100GB/月)
    - **专属优惠码**：`flyv2026`
-   - **快速入口**：[查看飞V测评](/providers/flyv-cloud/) | [前往飞V官网查看套餐](https://varnexa.flyvaff.com/#/?code=qaMgTyhY)
+   - **快速入口**：[前往飞V官网查看套餐](https://varnexa.flyvaff.com/#/?code=qaMgTyhY)
 
 ---
 
