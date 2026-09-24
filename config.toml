@@ -8,10 +8,10 @@ enableRobotsTXT = true
 
 [params]
   author = "JC指南编辑部"
-  description = "小白必备的节点选购与客户端配置指南 · 稳定、透明、少踩坑。针对 2026 年各类稳定专线机场推荐、性价比机场选型及 Clash / Sing-box / Shadowrocket 客户端分流设置教程。"
+  description = "依据用户场景需求精准匹配 · 2026 稳定专线机场推荐、性价比选型及 Clash / Sing-box / Shadowrocket 客户端配置教程。"
   keywords = ["机场推荐", "性价比机场", "Clash 机场推荐", "机场测评", "节点推荐", "机场优惠码", "AI 机场推荐", "稳定机场"]
   logoText = "机场推荐指南"
-  slogan = "小白必备的节点选购与客户端配置指南 · 稳定、透明、少踩坑"
+  slogan = "依据场景需求精准匹配 · 专线实测 · 稳定透明少踩坑"
 
 [taxonomies]
   category = "categories"

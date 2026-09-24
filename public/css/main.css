@@ -1255,6 +1255,45 @@ a:hover {
   font-size: 12px;
 }
 
+/* Hero Demand Highlights & Hook Title */
+.hero-keyword-description {
+  margin: 16px 0 24px 0;
+  padding: 16px 20px;
+  background: #ffffff;
+  border-left: 4px solid var(--primary-color, #2563eb);
+  border-radius: var(--radius-md, 10px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.hero-hook-title {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #0f172a;
+  margin-bottom: 14px;
+}
+
+.hero-demand-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 10px;
+}
+
+.demand-item {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #334155;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.demand-item:hover {
+  border-color: #bfdbfe;
+  background: #eff6ff;
+}
+
 /* Responsive Breakpoints */
 @media (max-width: 768px) {
   #desktop-nav-menu {
