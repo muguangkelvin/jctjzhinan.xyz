@@ -1335,6 +1335,110 @@ a:hover {
   word-break: break-all;
 }
 
+/* Status Page & List Intro Content Section Spacing & Neat Layout */
+.status-intro-box {
+  margin: 24px 0 32px 0;
+  padding: 20px 24px;
+  background: #f0f9ff;
+  border-left: 4px solid var(--primary-color, #2563eb);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.status-badge-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--primary-color, #2563eb);
+  margin-bottom: 8px;
+}
+
+.status-intro-box p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #334155;
+  margin: 0;
+}
+
+.list-intro-content {
+  margin: 28px 0 40px 0;
+}
+
+.list-intro-content h2 {
+  margin-top: 36px;
+  margin-bottom: 18px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f172a;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.list-intro-content p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+  color: #334155;
+  font-size: 15px;
+}
+
+.list-intro-content ul {
+  margin-top: 14px;
+  margin-bottom: 28px;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list-intro-content li {
+  padding: 12px 16px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #334155;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+}
+
+.list-intro-content table {
+  width: 100%;
+  margin: 28px 0 40px 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.list-intro-content th {
+  background: #f1f5f9;
+  padding: 14px 18px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1e293b;
+  text-align: left;
+  border-bottom: 2px solid #cbd5e1;
+}
+
+.list-intro-content td {
+  padding: 14px 18px;
+  font-size: 14px;
+  color: #334155;
+  border-bottom: 1px solid #f1f5f9;
+  vertical-align: middle;
+}
+
+.list-intro-content tr:last-child td {
+  border-bottom: none;
+}
+
+.list-intro-content tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
 /* Responsive Breakpoints */
 @media (max-width: 768px) {
   #desktop-nav-menu {
