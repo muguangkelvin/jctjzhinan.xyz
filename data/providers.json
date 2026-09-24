@@ -12,7 +12,10 @@
     "trafficFrom": "110GB/月",
     "suitableFor": "灵动随心、月付无压力、全平台兼容与节点极速连接",
     "summary": "优质节点服务，节点覆盖全面，连接响应迅速，月付无压力，完美兼容主流 Clash 与 Sing-box 客户端。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾、韩国",
+    "packages": "月付 / 季付 / 半年付 / 年付 / 不限时包",
+    "devices": "Windows / macOS / iOS / Android / Linux / 路由器"
   },
   {
     "rank": 2,
@@ -28,7 +31,10 @@
     "trafficFrom": "120GB/月",
     "suitableFor": "晚高峰影音、4K/8K 极速播放、ChatGPT / Claude AI 专线",
     "summary": "大带宽影音优化专线，晚高峰表现优异，完美支持 4K 8K 流媒体解锁与 AI 工具连接。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾、德国、英国",
+    "packages": "月付 / 季付 / 年付 / 团队大流量包",
+    "devices": "Windows / macOS / iOS / Android / Linux"
   },
   {
     "rank": 3,
@@ -44,7 +50,10 @@
     "trafficFrom": "50GB/月",
     "suitableFor": "轻量备用、香港线路需求、多设备家庭和新手客户端",
     "summary": "小流量低成本年付首选，提供自研一键客户端与 IEPL 专线节点，适合新手小白入门与日常办公备用。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、韩国",
+    "packages": "基础年付 / 季付 / 不限时一次性包",
+    "devices": "Windows / macOS / iOS / Android (一键客户端)"
   },
   {
     "rank": 4,
@@ -60,7 +69,10 @@
     "trafficFrom": "100GB/月",
     "suitableFor": "轻度使用、低流量年付、自研客户端和第三方订阅导入",
     "summary": "轻量稳定节点方案，界面简洁友好，支持各主流平台客户端订阅一键导入。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾",
+    "packages": "基础月付 / 特惠年付 / 备用按量包",
+    "devices": "Windows / macOS / iOS / Android / Linux"
   },
   {
     "rank": 5,
@@ -74,7 +86,10 @@
     "trafficFrom": "150GB/月",
     "suitableFor": "隐私防护、匿名保护",
     "summary": "注重传输层加密与隐私防护，提供极度干净的出口 IP 环境。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 6,
@@ -89,7 +104,10 @@
     "trafficFrom": "120GB/月",
     "suitableFor": "冲浪必备、多国线路",
     "summary": "覆盖美、日、港、台、新、韩等热门地区节点，冲浪体验良好。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 7,
@@ -104,7 +122,10 @@
     "trafficFrom": "160GB/月",
     "suitableFor": "经典梯子接入、稳定中转",
     "summary": "品牌专名机场，运营稳定，线路节点延迟表现符合预期。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 8,
@@ -118,7 +139,10 @@
     "trafficFrom": "100GB/月",
     "suitableFor": "轻度全能、多设备在线",
     "summary": "支持不限设备数并发连接（需合理使用），性价比出众。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 9,
@@ -133,7 +157,10 @@
     "trafficFrom": "120GB/月",
     "suitableFor": "多地区节点、跨境业务、短视频与多出口 IP 使用场景",
     "summary": "优质 IEPL 专线接入，侧重多国家和地区节点、智能分流与灵活套餐。兼容 Clash、Sing-box 等主流客户端。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 10,
@@ -147,7 +174,10 @@
     "trafficFrom": "100GB/月",
     "suitableFor": "日常浏览、多地区公网中转",
     "summary": "主打高性价比多节点分布，节点覆盖全面，适合日常网页浏览与轻度影音需求。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 11,
@@ -161,7 +191,10 @@
     "trafficFrom": "150GB/月",
     "suitableFor": "极速下载、大流量影音",
     "summary": "高速线路接入，提供大流量套餐，满足大文件下载与高画质视频播放。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 12,
@@ -176,7 +209,10 @@
     "trafficFrom": "80GB/月",
     "suitableFor": "V2ray / Trojan 协议爱好者、稳定流媒体",
     "summary": "老牌 V2ray 协议机场，节点响应迅速，线路稳定性良好。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 13,
@@ -191,7 +227,10 @@
     "trafficFrom": "100GB/月",
     "suitableFor": "透明性价比、直连与中转混合部署",
     "summary": "有一说一机场，价格公开透明，线路节点真实标注倍率，无虚标沉淀。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 14,
@@ -205,7 +244,10 @@
     "trafficFrom": "200GB/月",
     "suitableFor": "极速连接、低延迟游戏专线",
     "summary": "针对游戏与低延迟要求优化的节点接入，晚高峰抖动控制较优。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 15,
@@ -219,7 +261,10 @@
     "trafficFrom": "120GB/月",
     "suitableFor": "跨境外贸、海外社交媒体运营",
     "summary": "提供多国原生 IP 节点，适合海外社媒运营与跨境电商环境搭建。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 16,
@@ -233,7 +278,10 @@
     "trafficFrom": "100GB/月",
     "suitableFor": "新手简易导入、全平台兼容",
     "summary": "界面友好，节点一键导入，客服响应迅速，适合刚入门的新手用户。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 17,
@@ -248,7 +296,10 @@
     "trafficFrom": "250GB/月",
     "suitableFor": "大流量、团队协同",
     "summary": "海量流量包选择，节点涵盖全球热门地区，适合多设备共享与团队使用。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 18,
@@ -263,7 +314,10 @@
     "trafficFrom": "60GB/月",
     "suitableFor": "学生党、预算有限轻度用户",
     "summary": "主打低门槛月付方案，价格亲民，适合预算有限的日常轻度上网需求。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 19,
@@ -278,7 +332,10 @@
     "trafficFrom": "90GB/月",
     "suitableFor": "快速翻页、流畅网页浏览",
     "summary": "优化 HTTP/HTTPS 网页加速，网页打开迅速，配置导入简单。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 20,
@@ -293,7 +350,10 @@
     "trafficFrom": "300GB/月",
     "suitableFor": "边缘计算、低延迟传输、企业办公",
     "summary": "采用边缘节点加速架构，连接响应快，节点可用率高。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 21,
@@ -307,7 +367,10 @@
     "trafficFrom": "120GB/月",
     "suitableFor": "长久稳定、隐私保护",
     "summary": "强调高可用性与数据无日志记录，节点线路持续维护更新。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 22,
@@ -322,7 +385,10 @@
     "trafficFrom": "150GB/月",
     "suitableFor": "极速影音、4K 播放",
     "summary": "专为视频流媒体优化的网络架构，B站/YouTube/Netflix 解锁率优秀。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 23,
@@ -337,7 +403,10 @@
     "trafficFrom": "100GB/月",
     "suitableFor": "灵巧稳定、多平台协同",
     "summary": "线路调度灵活，应对晚高峰具有动态负载均衡机制。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 24,
@@ -351,7 +420,10 @@
     "trafficFrom": "110GB/月",
     "suitableFor": "无忧省心、自动故障转移",
     "summary": "多接入点冗余备份，连接稳定性高，适合注重网络连续性的用户。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 25,
@@ -366,7 +438,10 @@
     "trafficFrom": "130GB/月",
     "suitableFor": "轻便小巧、快捷分流",
     "summary": "提供丰富分流规则模板，完美兼容 Clash 与 Surge 订阅。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 26,
@@ -381,7 +456,10 @@
     "trafficFrom": "180GB/月",
     "suitableFor": "高速跳跃、灵活出口",
     "summary": "出口 IP 轮换频繁，降低单一 IP 被限制风险，适合科研与数据采集。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 27,
@@ -396,7 +474,10 @@
     "trafficFrom": "140GB/月",
     "suitableFor": "轻快稳健、多协议支持",
     "summary": "支持 SS / V2ray / Trojan 多种协议接入，配置简单明了。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   },
   {
     "rank": 28,
@@ -410,6 +491,9 @@
     "trafficFrom": "200GB/月",
     "suitableFor": "跨境电商、海外社交媒体",
     "summary": "专为跨境业务定制，提供多条高品质外贸专用节点。",
-    "lastChecked": "2026-09-19"
+    "lastChecked": "2026-09-19",
+    "regions": "香港、日本、新加坡、美国、台湾等",
+    "packages": "月付 / 季付 / 年付 / 不限时流量包",
+    "devices": "Windows / macOS / iOS / Android / 路由器"
   }
 ]

@@ -1294,6 +1294,47 @@ a:hover {
   background: #eff6ff;
 }
 
+/* Provider Card Extra Icon Rows (Regions, Packages, Devices) */
+.card-extra-info-list {
+  margin: 12px 0 16px 0;
+  padding: 10px 12px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-sm, 6px);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.info-row-item {
+  display: flex;
+  align-items: flex-start;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #334155;
+}
+
+.info-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--primary-color, #2563eb);
+  font-weight: 600;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.info-icon {
+  flex-shrink: 0;
+  color: var(--primary-color, #2563eb);
+}
+
+.info-val {
+  color: #1e293b;
+  font-weight: 500;
+  word-break: break-all;
+}
+
 /* Responsive Breakpoints */
 @media (max-width: 768px) {
   #desktop-nav-menu {
