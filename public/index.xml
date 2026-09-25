@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0800</lastBuildDate>
+			<lastBuildDate>Fri, 25 Sep 2026 15:00:00 +0800</lastBuildDate>
 		
 			<atom:link href="https://jctjzhinan.xyz/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -21,11 +21,18 @@
 				<description>针对 OpenAI、Midjourney 与 Claude 的节点搭配选型。</description>
 			</item>
 			<item>
+				<title>2026 稳定机场挑选 5 大黄金维度</title>
+				<link>https://jctjzhinan.xyz/guide/2026-stable-airport-guide/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/guide/2026-stable-airport-guide/</guid>
+				<description>涵盖线路架构、晚高峰稳定性、平台兼容性与避坑指南。</description>
+			</item>
+			<item>
 				<title>2026年新手第一次选机场应该注意什么？</title>
 				<link>https://jctjzhinan.xyz/faq/faq-001/</link>
 				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
 				<guid>https://jctjzhinan.xyz/faq/faq-001/</guid>
-				<description>针对新手小白的 5 大选选型指标解析。</description>
+				<description>针对选型避坑的 5 大核心指标解析与新手选机场指南。</description>
 			</item>
 			<item>
 				<title>4K / 8K 流媒体解锁节点推荐：Netflix 与 Disney&#43; 专线</title>
@@ -39,7 +46,7 @@
 				<link>https://jctjzhinan.xyz/faq/faq-087/</link>
 				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
 				<guid>https://jctjzhinan.xyz/faq/faq-087/</guid>
-				<description>Clash Meta for Android 与 Sing-box。</description>
+				<description>Clash Meta for Android 与 Sing-box Android 端全对比与选择指南。</description>
 			</item>
 			<item>
 				<title>ChatGPT &amp; Claude 专用节点梯子：避免 IP 风控报错</title>
@@ -53,7 +60,7 @@
 				<link>https://jctjzhinan.xyz/faq/faq-023/</link>
 				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
 				<guid>https://jctjzhinan.xyz/faq/faq-023/</guid>
-				<description>新协议支持与内存占用对比。</description>
+				<description>新协议支持、内存占用与高并发性能全面对比。</description>
 			</item>
 			<item>
 				<title>Clash Verge Rev 如何导入订阅链接？</title>
@@ -635,13 +642,6 @@
 				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
 				<guid>https://jctjzhinan.xyz/providers/yuzhou-cloud/</guid>
 				<description>海量流量包选择，节点涵盖全球热门地区，适合多设备共享与团队使用。</description>
-			</item>
-			<item>
-				<title>小白必读：2026 稳定机场挑选 5 大黄金维度</title>
-				<link>https://jctjzhinan.xyz/guide/2026-stable-airport-guide/</link>
-				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
-				<guid>https://jctjzhinan.xyz/guide/2026-stable-airport-guide/</guid>
-				<description>涵盖线路架构、晚高峰稳定性、平台兼容性与避坑指南。</description>
 			</item>
 			<item>
 				<title>年付优惠套餐相比月付套餐能省多少钱？</title>

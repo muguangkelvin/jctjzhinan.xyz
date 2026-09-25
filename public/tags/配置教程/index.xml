@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Thu, 24 Sep 2026 18:30:00 +0800</lastBuildDate>
+			<lastBuildDate>Fri, 25 Sep 2026 15:00:00 +0800</lastBuildDate>
 		
 			<atom:link href="https://jctjzhinan.xyz/tags/%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -28,6 +28,13 @@
 				<description>实时搜罗最新折扣码，下订单立享省钱优惠。</description>
 			</item>
 			<item>
+				<title>2026 稳定机场挑选 5 大黄金维度</title>
+				<link>https://jctjzhinan.xyz/guide/2026-stable-airport-guide/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/guide/2026-stable-airport-guide/</guid>
+				<description>涵盖线路架构、晚高峰稳定性、平台兼容性与避坑指南。</description>
+			</item>
+			<item>
 				<title>2026 稳定机场推荐指南</title>
 				<link>https://jctjzhinan.xyz/recommendations/</link>
 				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
@@ -35,11 +42,18 @@
 				<description>综合对比套餐、价格、专线类型与评测结论。</description>
 			</item>
 			<item>
-				<title>4K / 8K 流媒体解锁节点推荐：Netflix 与 Disney&#43; 专线</title>
-				<link>https://jctjzhinan.xyz/scenarios/streaming-media-unlock/</link>
+				<title>2026年新手第一次选机场应该注意什么？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-001/</link>
 				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
-				<guid>https://jctjzhinan.xyz/scenarios/streaming-media-unlock/</guid>
-				<description>流畅观看海外 4K/8K 高清视频的节点要求与解锁率说明。</description>
+				<guid>https://jctjzhinan.xyz/faq/faq-001/</guid>
+				<description>针对选型避坑的 5 大核心指标解析与新手选机场指南。</description>
+			</item>
+			<item>
+				<title>Android 手机推荐使用什么客户端软件？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-087/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-087/</guid>
+				<description>Clash Meta for Android 与 Sing-box Android 端全对比与选择指南。</description>
 			</item>
 			<item>
 				<title>ChatGPT &amp; Claude 专用节点梯子：避免 IP 风控报错</title>
@@ -47,6 +61,13 @@
 				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
 				<guid>https://jctjzhinan.xyz/scenarios/chatgpt-ai-dedicated-nodes/</guid>
 				<description>如何选择风控分低、出口 IP 干净的 AI 办公专用节点。</description>
+			</item>
+			<item>
+				<title>Clash Meta 内核与 Alpha 内核选哪个更好？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-023/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-023/</guid>
+				<description>新协议支持、内存占用与高并发性能全面对比。</description>
 			</item>
 			<item>
 				<title>Clash 规则分流与机场订阅配合优化</title>
@@ -117,13 +138,6 @@
 				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
 				<guid>https://jctjzhinan.xyz/recommendations/heavy-user-airports/</guid>
 				<description>满足海量下载与多人共享的大流量套餐矩阵。</description>
-			</item>
-			<item>
-				<title>小白必读：2026 稳定机场挑选 5 大黄金维度</title>
-				<link>https://jctjzhinan.xyz/guide/2026-stable-airport-guide/</link>
-				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
-				<guid>https://jctjzhinan.xyz/guide/2026-stable-airport-guide/</guid>
-				<description>涵盖线路架构、晚高峰稳定性、平台兼容性与避坑指南。</description>
 			</item>
 			<item>
 				<title>性价比便宜机场推荐：按预算与流量精明挑选</title>

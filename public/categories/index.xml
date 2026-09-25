@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Thu, 24 Sep 2026 18:30:00 +0800</lastBuildDate>
+			<lastBuildDate>Fri, 25 Sep 2026 15:00:00 +0800</lastBuildDate>
 		
 			<atom:link href="https://jctjzhinan.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -105,6 +105,13 @@
 				<description></description>
 			</item>
 			<item>
+				<title>内核与客户端</title>
+				<link>https://jctjzhinan.xyz/categories/%E5%86%85%E6%A0%B8%E4%B8%8E%E5%AE%A2%E6%88%B7%E7%AB%AF/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/categories/%E5%86%85%E6%A0%B8%E4%B8%8E%E5%AE%A2%E6%88%B7%E7%AB%AF/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>多设备与订阅</title>
 				<link>https://jctjzhinan.xyz/categories/%E5%A4%9A%E8%AE%BE%E5%A4%87%E4%B8%8E%E8%AE%A2%E9%98%85/</link>
 				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
@@ -116,6 +123,13 @@
 				<link>https://jctjzhinan.xyz/categories/%E5%A5%97%E9%A4%90%E4%B8%8E%E4%BB%B7%E6%A0%BC/</link>
 				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
 				<guid>https://jctjzhinan.xyz/categories/%E5%A5%97%E9%A4%90%E4%B8%8E%E4%BB%B7%E6%A0%BC/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>客户端指南</title>
+				<link>https://jctjzhinan.xyz/categories/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%8C%87%E5%8D%97/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/categories/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%8C%87%E5%8D%97/</guid>
 				<description></description>
 			</item>
 			<item>

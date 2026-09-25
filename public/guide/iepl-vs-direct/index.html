@@ -98,15 +98,17 @@
               
               { title: "2026 AI 工具机场推荐：全平台兼容与住宅级 IP", url: "/scenarios/ai-airport-recommendations/", summary: "针对 OpenAI、Midjourney 与 Claude 的节点搭配选型。", section: "scenarios" },
               
-              { title: "2026年新手第一次选机场应该注意什么？", url: "/faq/faq-001/", summary: "针对新手小白的 5 大选选型指标解析。", section: "faq" },
+              { title: "2026 稳定机场挑选 5 大黄金维度", url: "/guide/2026-stable-airport-guide/", summary: "涵盖线路架构、晚高峰稳定性、平台兼容性与避坑指南。", section: "guide" },
+              
+              { title: "2026年新手第一次选机场应该注意什么？", url: "/faq/faq-001/", summary: "针对选型避坑的 5 大核心指标解析与新手选机场指南。", section: "faq" },
               
               { title: "4K / 8K 流媒体解锁节点推荐：Netflix 与 Disney+ 专线", url: "/scenarios/streaming-media-unlock/", summary: "流畅观看海外 4K/8K 高清视频的节点要求与解锁率说明。", section: "scenarios" },
               
-              { title: "Android 手机推荐使用什么客户端软件？", url: "/faq/faq-087/", summary: "Clash Meta for Android 与 Sing-box。", section: "faq" },
+              { title: "Android 手机推荐使用什么客户端软件？", url: "/faq/faq-087/", summary: "Clash Meta for Android 与 Sing-box Android 端全对比与选择指南。", section: "faq" },
               
               { title: "ChatGPT \u0026 Claude 专用节点梯子：避免 IP 风控报错", url: "/scenarios/chatgpt-ai-dedicated-nodes/", summary: "如何选择风控分低、出口 IP 干净的 AI 办公专用节点。", section: "scenarios" },
               
-              { title: "Clash Meta 内核与 Alpha 内核选哪个更好？", url: "/faq/faq-023/", summary: "新协议支持与内存占用对比。", section: "faq" },
+              { title: "Clash Meta 内核与 Alpha 内核选哪个更好？", url: "/faq/faq-023/", summary: "新协议支持、内存占用与高并发性能全面对比。", section: "faq" },
               
               { title: "Clash Verge Rev 如何导入订阅链接？", url: "/faq/faq-019/", summary: "Windows 与 Mac 端一键复制导入操作全流程。", section: "faq" },
               
@@ -273,8 +275,6 @@
               { title: "如何配置 Shadowsocks 客户端代理参数？", url: "/faq/faq-036/", summary: "服务器地址、端口、密码与加密方式输入。", section: "faq" },
               
               { title: "宇宙云机场测评：2026 价格、节点、特点与购买前须知", url: "/providers/yuzhou-cloud/", summary: "海量流量包选择，节点涵盖全球热门地区，适合多设备共享与团队使用。", section: "providers" },
-              
-              { title: "小白必读：2026 稳定机场挑选 5 大黄金维度", url: "/guide/2026-stable-airport-guide/", summary: "涵盖线路架构、晚高峰稳定性、平台兼容性与避坑指南。", section: "guide" },
               
               { title: "年付优惠套餐相比月付套餐能省多少钱？", url: "/faq/faq-080/", summary: "打折幅度与风险折现衡量。", section: "faq" },
               
@@ -647,7 +647,7 @@
         <span class="meta-item author-meta">&#128100; 作者：JC指南编辑部</span>
         <span class="meta-item date-meta">&#128197; 发布时间：2026-09-19</span>
         <span class="meta-item update-meta">&#128260; 最后核验：2026-09-19</span>
-        <span class="meta-item readtime-meta">&#9202; 预计阅读：3 分钟</span>
+        <span class="meta-item readtime-meta">&#9202; 预计阅读：7 分钟</span>
       </div>
       
       <div class="article-summary-box">
@@ -665,6 +665,10 @@
   <ul>
     <li><a href="#iepl-专线与直连中转节点区别详解">IEPL 专线与直连/中转节点区别详解</a>
       <ul>
+        <li><a href="#-核心概念与工作链路">🔗 核心概念与工作链路</a></li>
+        <li><a href="#-综合特性横向对比">📊 综合特性横向对比</a></li>
+        <li><a href="#-常见误区与避坑指南">⚠️ 常见误区与避坑指南</a></li>
+        <li><a href="#-选型建议">🎯 选型建议</a></li>
         <li><a href="#深入解析为什么选择稳定的-iepl专线机场-对于网络体验至关重要">深入解析：为什么选择稳定的 IEPL专线机场 对于网络体验至关重要？</a></li>
       </ul>
     </li>
@@ -684,6 +688,118 @@
     <div class="article-body">
       <h2 id="iepl-专线与直连中转节点区别详解">IEPL 专线与直连/中转节点区别详解</h2>
 <p><strong>为什么晚高峰看视频不再卡顿？专线传输技术原理深度剖析。</strong> 在 2026 年的网络环境下，掌握【<strong>IEPL专线机场</strong>】的相关知识与配置技能，能够显著提升海外连接的平稳度与安全性。</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h3 id="-核心概念与工作链路">🔗 核心概念与工作链路</h3>
+<p>理解这三者的核心区别，先看流量从你的本地客户端（Client）到达境外目标服务器（Target）的具体路径：</p>
+<ol>
+<li>
+<p>🌐 <strong>普通直连节点（Direct Connection）</strong></p>
+<ul>
+<li><strong>传输路径</strong>：<code>本地</code> → <code>公网跨国光缆/骨干网</code> → <code>境外 VPS 节点</code> → <code>目标网站</code></li>
+<li><strong>运作机制</strong>：用户设备直接发起跨国 TCP/UDP 请求，流量全程通过公网公共信道。虽然节点通常会选用优化线路（如电信 CN2 GIA、联通 9929/AS4837、移动 CMIN2 等），但在高峰期仍需与海量民用流量竞争跨国公网带宽出口。</li>
+<li><strong>致命短板</strong>：数据包直接穿过公网跨国边界，容易受到审查阻断、流量干扰或物理海缆拥堵影响，晚高峰容易出现丢包抖动。</li>
+</ul>
+</li>
+<li>
+<p>🔀 <strong>公网中转节点（Relay / Tunnel）</strong></p>
+<ul>
+<li><strong>传输路径</strong>：<code>本地</code> → <code>国内公网中转服务器</code> → <code>跨国公网传输（隧道加密）</code> → <code>境外落地服务器</code> → <code>目标网站</code></li>
+<li><strong>运作机制</strong>：用户不直接连境外机器，而是先连接一台国内延迟极低的中转机（如国内 BGP 节点）。国内机与境外机之间通过加密隧道（如 TLS/WebSocket/gRPC 等）传输数据。</li>
+<li><strong>优缺点分析</strong>：国内接入延迟低、速度表现通常优于普通直连；但其跨国段依然走的是公网，在特殊时期或高峰时段，两台机器之间的跨国通道依然可能被限速或丢包。</li>
+</ul>
+</li>
+<li>
+<p>⚡ <strong>IEPL 专线节点（International Ethernet Private Line）</strong></p>
+<ul>
+<li><strong>传输路径</strong>：<code>本地</code> → <code>专线入口端点</code> → <code>内网物理/以太网隔离通道（不过公网跨国审查）</code> → <code>专线出口落地端点</code> → <code>目标网站</code></li>
+<li><strong>运作机制</strong>：IEPL 属于国际以太网私有专线，基于电信运营商的底层传输网络（如 SDH/MSTP/OTN）搭建。流量在国内接入后，直接进入运营商级别的两地私有二层专线通道内直达境外机房。</li>
+<li><strong>核心优势</strong>：
+<ul>
+<li>🛡️ <strong>真·不过墙</strong>：流量在专线内网通道内传输，不走公网跨国出口，彻底免除跨国审查干扰与阻断。</li>
+<li>🚀 <strong>独享带宽与低抖动</strong>：运营商 SLA 保障，无公网高峰期抢带宽现象，丢包率趋近于 0，延迟极度稳定。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<!-- raw HTML omitted -->
+<h3 id="-综合特性横向对比">📊 综合特性横向对比</h3>
+<table>
+	<thead>
+			<tr>
+					<th style="text-align: left">评估维度</th>
+					<th style="text-align: left">普通直连节点</th>
+					<th style="text-align: left">公网中转节点</th>
+					<th style="text-align: left">IEPL 专线节点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: left"><strong>跨国传输网络</strong></td>
+					<td style="text-align: left">公网公共骨干网</td>
+					<td style="text-align: left">公网隧道（走公网跨国）</td>
+					<td style="text-align: left">运营商内网私有物理/以太网通道</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>高峰期稳定性</strong></td>
+					<td style="text-align: left">易受公网拥堵影响，丢包率波动大</td>
+					<td style="text-align: left">较好，但跨境段仍可能受公网干扰</td>
+					<td style="text-align: left"><strong>极佳，SLA 保障，全天候零丢包</strong></td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>抗阻断能力</strong></td>
+					<td style="text-align: left">弱（IP 易被拦截）</td>
+					<td style="text-align: left">中等（仅入口在国内，落地仍可能受影响）</td>
+					<td style="text-align: left"><strong>极强（内网点对点互通，无公网拦截风险）</strong></td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>延迟表现</strong></td>
+					<td style="text-align: left">受路由绕路影响较大</td>
+					<td style="text-align: left">较稳定，国内就近接入</td>
+					<td style="text-align: left"><strong>最优，物理直达，延迟理论最低</strong></td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>带宽成本</strong></td>
+					<td style="text-align: left">低至中等</td>
+					<td style="text-align: left">中等</td>
+					<td style="text-align: left">高（按兆计费，企业级成本）</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>典型适用场景</strong></td>
+					<td style="text-align: left">预算有限、轻度日常浏览</td>
+					<td style="text-align: left">追求性价比的流媒体与常规办公</td>
+					<td style="text-align: left">跨国金融交易、实时语音/游戏、关键业务出海</td>
+			</tr>
+	</tbody>
+</table>
+<!-- raw HTML omitted -->
+<h3 id="-常见误区与避坑指南">⚠️ 常见误区与避坑指南</h3>
+<ul>
+<li>
+<p>❌ <strong>“中转”不等于“专线”</strong>：
+市面上不少服务商将普通的“国内双程中转”包装为“专线”。识别真伪的关键在于看跨国段是否走公网。如果 ping 测试在晚高峰依然有 10% 以上丢包，或在网络敏感期频繁断连，基本都是普通的公网隧道中转，而非真正的物理专线。</p>
+</li>
+<li>
+<p>🔍 <strong>IEPL 与 IPLC 的细微区别</strong>：</p>
+<ul>
+<li><strong>IPLC (International Private Leased Circuit)</strong>：传统点对点物理租用电路，多为 TDM/时分复用二层链路。</li>
+<li><strong>IEPL (International Ethernet Private Line)</strong>：基于以太网技术的增强版私网线路，支持以太网接口直接互联，扩展性更好、调度更灵活，但在最终的用户体验（延迟与防丢包）上两者几乎一致。</li>
+</ul>
+</li>
+<li>
+<p>⚡ <strong>入口与出口的限制</strong>：
+专线虽然在跨国段表现完美，但你的设备到国内“入口机”依然走的是本地宽带公网。如果本地 ISP 到专线入口的路由不佳，依然可能在这一段产生延迟。因此选购时应优先选择支持多线 BGP 入口的专线服务。</p>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<h3 id="-选型建议">🎯 选型建议</h3>
+<ul>
+<li>💡 <strong>选择直连</strong>：个人轻度学术检索、海外网页浏览，或者预算有限且自身宽带有运营商精品网（如电信 CN2）优待的用户。</li>
+<li>📺 <strong>选择普通中转</strong>：日常需要观看海外 4K 流媒体、下载大文件，希望兼顾速度与成本效益。</li>
+<li>🚀 <strong>选择 IEPL 专线</strong>：对连接可用性要求达到 99.9% 的跨国远程协作、高频股票/加密货币行情交易、跨服竞技游戏加速，以及企业出海等核心生产力场景。</li>
+</ul>
 <hr>
 <h3 id="深入解析为什么选择稳定的-iepl专线机场-对于网络体验至关重要">深入解析：为什么选择稳定的 IEPL专线机场 对于网络体验至关重要？</h3>
 <p>在搭建和使用海外网络代理时，很多小白用户容易掉入“低价月抛”或“虚标带宽”的坑中。实际上，一个高质量的节点服务，其核心竞争力不在于宣传的“几百个节点”，而在于<strong>真正的公网中转质量与专线冗余</strong>。</p>
@@ -777,12 +893,12 @@
     </div>
     
     <div class="related-card">
-      <a href="/scenarios/streaming-media-unlock/" class="related-link">4K / 8K 流媒体解锁节点推荐：Netflix 与 Disney&#43; 专线</a>
+      <a href="/guide/2026-stable-airport-guide/" class="related-link">2026 稳定机场挑选 5 大黄金维度</a>
       <span class="related-date">2026-09-19</span>
     </div>
     
     <div class="related-card">
-      <a href="/scenarios/chatgpt-ai-dedicated-nodes/" class="related-link">ChatGPT &amp; Claude 专用节点梯子：避免 IP 风控报错</a>
+      <a href="/faq/faq-001/" class="related-link">2026年新手第一次选机场应该注意什么？</a>
       <span class="related-date">2026-09-19</span>
     </div>
     
