@@ -11,7 +11,88 @@ author: "JC指南编辑部"
 
 ## Surge 高级规则分流与 TUN 模式排错手把手教程
 
+<div class="status-intro-box">
+  <div class="status-badge-title">🍏 Apple 生态顶级代理工具 · 分流与 TUN 局域网共享</div>
+  <p>Surge 是专为 Apple 生态（macOS / iOS / iPadOS）打造的高级网络调试与代理工具，官方并无原生 Android 版本。在多设备与跨平台场景中，通常由运行 Surge（开启“增强模式”即 TUN 虚拟网卡）的 Mac 充当全网网关，或通过配置代理共享服务为局域网内的 Android 设备提供分流支持。</p>
+</div>
+
+<figure class="article-image-box">
+  <img src="/images/surge-proxy-diagram.png" alt="Surge 代理中转与分流工作原理示意图" loading="lazy">
+  <figcaption>【Surge 代理中转与分流工作原理示意图】</figcaption>
+</figure>
+
 **Mac 与 iOS 端顶级代理工具 Surge 进阶配置与语法说明。** 在 2026 年的网络环境下，掌握【**Surge 规则配置**】的相关知识与配置技能，能够显著提升海外连接的平稳度与安全性。
+
+<br>
+
+### 一、 高级规则分流（Rule-based Routing）
+
+Surge 的分流系统遵循从上至下优先匹配的原则。一旦某条规则命中，后续规则即刻终止。
+
+#### 1. 核心分流规则语法与场景
+
+- **域名匹配**：
+  - `DOMAIN,example.com,Proxy`：精确匹配主域名。
+  - `DOMAIN-SUFFIX,google.com,Proxy`：匹配所有以该域名结尾的子域（如 `mail.google.com`）。
+  - `DOMAIN-KEYWORD,twitter,Proxy`：包含关键字即匹配。
+- **IP 与 CIDR 匹配**：
+  - `IP-CIDR,192.168.0.0/16,DIRECT,no-resolve`：局域网直连。*务必加上 `no-resolve`，避免 Surge 强制做 DNS 反查触发延迟。*
+  - `GEOIP,CN,DIRECT`：中国大陆 IP 直连。
+- **应用进程匹配（macOS 专属）**：
+  - `PROCESS-NAME,Telegram,Proxy`：针对特定应用进程分流。
+- **最终兜底匹配**：
+  - `FINAL,DIRECT` 或 `FINAL,Proxy,dns-failed`：末尾兜底规则。
+
+#### 2. 外部规则集（Rule-Set）管理
+
+为避免主配置文件过于臃肿，推荐引入外部规则集：
+
+```ini
+[Rule]
+# 引用远程规则集
+RULE-SET,https://raw.githubusercontent.com/.../Telegram.list,Proxy
+RULE-SET,https://raw.githubusercontent.com/.../Reject.list,REJECT
+RULE-SET,SYSTEM,DIRECT
+
+# 兜底
+FINAL,Proxy
+```
+
+<br>
+
+### 二、 TUN 增强模式与全平台（Android）接入
+
+Surge 的“增强模式 (Enhanced Mode)”基于虚拟网卡（TUN）工作，能够接管系统内所有不主动遵循系统代理设置的流量（如终端命令行、UDP 游戏流量、虚拟机等）。
+
+#### 1. macOS 开启 Enhanced Mode (TUN)
+- 接管本机的全部网络协议栈与 UDP 流量。
+- 点击菜单栏 Surge 图标，进入偏好设置。
+- 打开 **Enhanced Mode（增强模式）** 开关。
+- 首次开启需安装特权辅助进程（*Privileged Helper*），输入 macOS 开机密码授权。
+
+#### 2. 开启局域网共享 (Allow Wi-Fi Access)
+- 允许 Android 等同一局域网设备接入 Surge。
+- 在 Surge 设置中勾选 **Allow Wi-Fi Access（允许局域网连接）**。
+- 记下 Surge 监听的 HTTP 代理端口（默认 `6152`）与 SOCKS5 端口（默认 `6153`）。
+- 查看 Mac 当前的局域网 IP（例如 `192.168.1.100`）。
+
+#### 3. Android 终端网络配置
+- 让 Android 流量经由 Surge 规则分流。
+- 将 Android 手机与 Mac 连接至同一个 Wi-Fi。
+- 打开 Android 的“WLAN 设置”，长按当前连接的 Wi-Fi -> **修改网络**。
+- 将代理设置为 **手动**，主机名填写 Mac IP（`192.168.1.100`），端口填 `6152`。
+- 保存后，Android 设备的所有 Web 流量将统一由 Mac 上的 Surge 进行规则分流与去广告。
+
+<br>
+
+### 三、 TUN 模式常见故障排错（Troubleshooting）
+
+| 故障现象 | 根源排查 | 解决方案 |
+|:---|:---|:---|
+| **开启增强模式后全网断网** | DNS 冲突或虚拟网卡 IP 冲突 | 检查 `[General]` 下 `tun-excluded-routes`，确保未将默认网关路由死循环；将 `dns-server` 调整为 `223.5.5.5, 119.29.29.29`。 |
+| **特定应用连接超时** | 该应用采用私有协议或绕过了假 IP | 在 Surge 配置的 `[General]` 中，在 `skip-proxy` 或 `tun-excluded-routes` 填入该应用的 IP 段或域名。 |
+| **DNS 污染 / 泄露** | 未开启 Fake-IP 模式导致本地提早解析 | 开启 `enhanced-mode-by-rule = false` 并设置 `dns-follow-system = false`，强制由远程节点解析域名。 |
+| **Android 连接共享后无网络** | macOS 防火墙拦截入站连接 | 前往 macOS“系统设置 - 网络 - 防火墙”，将 Surge 设置为“允许传入连接”，或关闭局域网防火墙隔离测试。 |
 
 ---
 
