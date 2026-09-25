@@ -70,6 +70,41 @@
 				<description>新协议支持、内存占用与高并发性能全面对比。</description>
 			</item>
 			<item>
+				<title>Clash Verge 的备份与跨设备同步配置方法</title>
+				<link>https://jctjzhinan.xyz/faq/faq-032/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-032/</guid>
+				<description>配置文件导出与多电脑快速恢复。</description>
+			</item>
+			<item>
+				<title>Clash 占用内存过高怎么优化设置？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-025/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-025/</guid>
+				<description>日志级别调整与轻量内核替换指引。</description>
+			</item>
+			<item>
+				<title>Clash 开启 TUN 模式后无网络连接怎么办？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-021/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-021/</guid>
+				<description>网卡冲突、防火墙拦截与服务安装解决。</description>
+			</item>
+			<item>
+				<title>Clash 混合配置 (Mixin) 和预处理 (Script) 怎么用？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-026/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-026/</guid>
+				<description>进阶用户的规则脚本自定义功能。</description>
+			</item>
+			<item>
+				<title>Clash 的 DNS 泄漏防范设置应该怎么选？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-028/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-028/</guid>
+				<description>fake-ip 与 redir-host 模式区别。</description>
+			</item>
+			<item>
 				<title>Clash 规则分流与机场订阅配合优化</title>
 				<link>https://jctjzhinan.xyz/recommendations/clash/clash-rules-matching/</link>
 				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>

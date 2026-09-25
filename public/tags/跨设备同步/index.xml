@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>跨设备同步 on 机场推荐指南</title>
+		<link>https://jctjzhinan.xyz/tags/%E8%B7%A8%E8%AE%BE%E5%A4%87%E5%90%8C%E6%AD%A5/</link>
+		<description>Recent content in 跨设备同步 on 机场推荐指南</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 25 Sep 2026 15:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://jctjzhinan.xyz/tags/%E8%B7%A8%E8%AE%BE%E5%A4%87%E5%90%8C%E6%AD%A5/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Clash Verge 的备份与跨设备同步配置方法</title>
+				<link>https://jctjzhinan.xyz/faq/faq-032/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-032/</guid>
+				<description>配置文件导出与多电脑快速恢复。</description>
+			</item>
+	</channel>
+</rss>

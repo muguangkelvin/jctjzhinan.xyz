@@ -21,6 +21,20 @@
 				<description>新协议支持、内存占用与高并发性能全面对比。</description>
 			</item>
 			<item>
+				<title>Clash 混合配置 (Mixin) 和预处理 (Script) 怎么用？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-026/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-026/</guid>
+				<description>进阶用户的规则脚本自定义功能。</description>
+			</item>
+			<item>
+				<title>Clash 的 DNS 泄漏防范设置应该怎么选？</title>
+				<link>https://jctjzhinan.xyz/faq/faq-028/</link>
+				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
+				<guid>https://jctjzhinan.xyz/faq/faq-028/</guid>
+				<description>fake-ip 与 redir-host 模式区别。</description>
+			</item>
+			<item>
 				<title>零基础教程：Windows/Mac 端 Clash Verge Rev 配置指南</title>
 				<link>https://jctjzhinan.xyz/clients/clash-verge-rev-tutorial/</link>
 				<pubDate>Sat, 19 Sep 2026 10:00:00 +0800</pubDate>
