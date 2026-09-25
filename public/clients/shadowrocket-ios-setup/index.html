@@ -647,7 +647,7 @@
         <span class="meta-item author-meta">&#128100; 作者：JC指南编辑部</span>
         <span class="meta-item date-meta">&#128197; 发布时间：2026-09-19</span>
         <span class="meta-item update-meta">&#128260; 最后核验：2026-09-19</span>
-        <span class="meta-item readtime-meta">&#9202; 预计阅读：3 分钟</span>
+        <span class="meta-item readtime-meta">&#9202; 预计阅读：5 分钟</span>
       </div>
       
       <div class="article-summary-box">
@@ -665,6 +665,9 @@
   <ul>
     <li><a href="#ios-iphone-小火箭-shadowrocket-安装与节点导入">iOS iPhone 小火箭 Shadowrocket 安装与节点导入</a>
       <ul>
+        <li><a href="#一-安装准备海外-apple-id">一、 安装准备（海外 Apple ID）</a></li>
+        <li><a href="#二-节点与订阅导入方式">二、 节点与订阅导入方式</a></li>
+        <li><a href="#三-路由模式与日常设置">三、 路由模式与日常设置</a></li>
         <li><a href="#深入解析为什么选择稳定的-shadowrocket-小火箭使用教程-对于网络体验至关重要">深入解析：为什么选择稳定的 Shadowrocket 小火箭使用教程 对于网络体验至关重要？</a></li>
       </ul>
     </li>
@@ -683,7 +686,61 @@
 
     <div class="article-body">
       <h2 id="ios-iphone-小火箭-shadowrocket-安装与节点导入">iOS iPhone 小火箭 Shadowrocket 安装与节点导入</h2>
+<!-- raw HTML omitted -->
 <p><strong>苹果 iOS 节点导入、分流规则设置与常见连接报错排错。</strong> 在 2026 年的网络环境下，掌握【<strong>Shadowrocket 小火箭使用教程</strong>】的相关知识与配置技能，能够显著提升海外连接的平稳度与安全性。</p>
+<!-- raw HTML omitted -->
+<h3 id="一-安装准备海外-apple-id">一、 安装准备（海外 Apple ID）</h3>
+<p>由于中国大陆 App Store 未上架 Shadowrocket，需要使用非国区（如美区、港区、日区等）的 Apple ID 进行下载：</p>
+<ul>
+<li>🚪 <strong>退出原账号</strong>：打开 App Store，点击右上角头像滑到最底部，点击 <strong>退出登录</strong>。</li>
+<li>🔑 <strong>登录外区账号</strong>：在顶部登录已购买过 Shadowrocket 的海外 Apple ID（<em>注意：请勿在系统“设置”中登录 iCloud，仅在 App Store 内登录</em>）。</li>
+<li>📥 <strong>下载应用</strong>：在 App Store 搜索 <strong>Shadowrocket</strong>，认准白色火箭图标与开发者（<em>Shadow Launch Technology Limited</em>），下载后退出外区账号换回个人账号即可。</li>
+</ul>
+<!-- raw HTML omitted -->
+<h3 id="二-节点与订阅导入方式">二、 节点与订阅导入方式</h3>
+<ol>
+<li>
+<p>🔗 <strong>方法 1：通过订阅链接添加（推荐）</strong>：</p>
+<ul>
+<li>最快捷推荐方式，自动更新所有服务器节点。</li>
+<li>复制服务商后台提供的 Shadowrocket / V2Ray / Clash 订阅链接。</li>
+<li>打开 Shadowrocket，点击右上角的 <strong>「+」</strong> 加号。</li>
+<li>点击第一行的 <strong>类型 (Type)</strong>，选择 <strong>Subscribe</strong>。</li>
+<li>在 <strong>URL</strong> 栏中粘贴刚复制的订阅链接（iOS 15+ 打开时通常会自动填入剪贴板链接）。</li>
+<li><strong>备注</strong>：可选填服务商名称，点击右上角 <strong>保存 (Done)</strong>，软件会自动拉取所有节点列表。</li>
+</ul>
+</li>
+<li>
+<p>📱 <strong>方法 2：扫码或剪贴板导入单个节点</strong>：</p>
+<ul>
+<li>适合添加单台自建或测试服务器。</li>
+<li><strong>扫码导入</strong>：点击主界面左上角 <strong>扫码图标</strong>，扫描屏幕或纸质上的节点二维码，即可直接保存。</li>
+<li><strong>剪贴板识别</strong>：复制形如 <code>vmess://</code>、<code>ss://</code> 或 <code>trojan://</code> 的节点链接，切回 Shadowrocket，应用通常会弹出提示是否添加到列表，点击 <strong>添加</strong> 即可。</li>
+</ul>
+</li>
+<li>
+<p>⚡ <strong>启动连接与系统授权</strong>：</p>
+<ul>
+<li>首次连接需输入锁屏密码以信任 VPN 描述文件。</li>
+<li>在节点列表中点击选中一个延迟较低的节点（节点前出现圆点即代表选中）。</li>
+<li>打开顶部的 <strong>未连接</strong> 开关。</li>
+<li>首次开启时，系统会弹出 <em>“Shadowrocket 想添加 VPN 配置”</em>，点击 <strong>允许 (Allow)</strong> 并输入 iPhone/iPad 锁屏密码确认。</li>
+<li>屏幕顶部状态栏出现 VPN 图标即表示连接成功。</li>
+</ul>
+</li>
+</ol>
+<!-- raw HTML omitted -->
+<h3 id="三-路由模式与日常设置">三、 路由模式与日常设置</h3>
+<ul>
+<li>🔀 <strong>全局路由模式</strong>：
+<ul>
+<li><strong>配置（默认推荐）</strong>：根据内置分流规则自动判断，国内站点直连、国外站点走代理，不影响微信、外卖等国内应用速度。</li>
+<li><strong>代理</strong>：全局走节点，所有网络流量均经由代理服务器。</li>
+<li><strong>直连</strong>：不经过代理，直接访问。</li>
+</ul>
+</li>
+<li>🔄 <strong>自动更新订阅</strong>：进入底部 <strong>设置 -&gt; 服务器订阅</strong>，开启 <strong>「打开时更新」</strong> 与 <strong>「后台自动更新」</strong>，确保节点列表与可用性始终保持最新。</li>
+</ul>
 <hr>
 <h3 id="深入解析为什么选择稳定的-shadowrocket-小火箭使用教程-对于网络体验至关重要">深入解析：为什么选择稳定的 Shadowrocket 小火箭使用教程 对于网络体验至关重要？</h3>
 <p>在搭建和使用海外网络代理时，很多小白用户容易掉入“低价月抛”或“虚标带宽”的坑中。实际上，一个高质量的节点服务，其核心竞争力不在于宣传的“几百个节点”，而在于<strong>真正的公网中转质量与专线冗余</strong>。</p>
