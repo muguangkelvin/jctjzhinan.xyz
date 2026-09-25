@@ -1499,10 +1499,40 @@ a:hover {
   color: #94a3b8;
 }
 
-.metric-detail {
-  font-size: 11px;
-  color: #cbd5e1;
-  margin-top: 6px;
+/* Article Image & Infographic Card Box */
+.article-image-box {
+  margin: 28px 0 36px 0;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.article-image-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+.article-image-box figcaption {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1e293b;
+  text-align: center;
+}
+
+.article-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 /* Responsive Breakpoints */

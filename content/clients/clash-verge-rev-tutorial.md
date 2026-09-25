@@ -9,6 +9,11 @@ summary: "从下载安装、订阅导入到开启 TUN 模式全流程手把手�
 author: "JC指南编辑部"
 ---
 
+<figure class="article-image-box">
+  <img src="/images/clash-verge-rev-tutorial-guide.jpg" alt="零基础教程：Windows/Mac 端 Clash Verge Rev 配置指南相应图" loading="lazy">
+  <figcaption>【零基础教程：Windows/Mac 端 Clash Verge Rev 配置指南相应图】</figcaption>
+</figure>
+
 ## 零基础教程：Windows/Mac 端 Clash Verge Rev 配置指南
 
 **从下载安装、订阅导入到开启 TUN 模式全流程手把手图文实操。** 在 2026 年的网络环境下，掌握【**Clash Verge 配置教程**】的相关知识与配置技能，能够显著提升海外连接的平稳度与安全性。
