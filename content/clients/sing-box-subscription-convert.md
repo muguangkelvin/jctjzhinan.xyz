@@ -11,7 +11,57 @@ author: "JC指南编辑部"
 
 ## Sing-box 极速入门：订阅转换与全平台配置指引
 
+<figure class="article-image-box">
+  <img src="/images/sing-box-macos-dashboard.jpg" alt="Sing-box macOS Dashboard 界面与配置实操图" loading="lazy">
+  <figcaption>【Sing-box macOS Dashboard 界面与配置实操图】</figcaption>
+</figure>
+
 **新一代通用网络工具 Sing-box 从导入到规则修改教程。** 在 2026 年的网络环境下，掌握【**Sing-box 订阅转换**】的相关知识与配置技能，能够显著提升海外连接的平稳度与安全性。
+
+<br>
+
+### 一、 订阅转换（生成 Sing-box 格式配置）
+
+Sing-box 采用专属的 JSON 配置格式，传统机场提供的 Clash、V2Ray 或 SSR 链接通常无法直接使用，需先进行格式转换。
+
+- 🔗 **获取通用订阅链接**：登录机场后台，复制 Clash 或 V2Ray 订阅链接。
+- 🛠️ **使用在线转换工具**：打开主流的 Subconverter 转换前端（如各类公开转换网站或自建服务）。
+  - **订阅链接**：粘贴原机场链接。
+  - **客户端选择 (Target)**：在生成格式下拉列表中选择 **Sing-box**。
+  - **高级设置**：可按需勾选“UDP 支持”与“过滤非法节点”。
+- 🚀 **导出链接**：点击“生成 Sing-box 订阅链接”并复制该 URL。
+
+<br>
+
+### 二、 macOS 客户端安装与导入
+
+macOS 推荐直接使用 App Store 或 GitHub Releases 发布的图形客户端（Sing-box for macOS）。
+
+1. 💻 **安装客户端**：
+   - 推荐通过 App Store 或官方 Release 下载。前往 Mac App Store 搜索 **Sing-box**，或从官方 GitHub 仓库下载 `.dmg` 文件拖拽至“应用程序”文件夹。
+   - 首次打开需在 macOS“系统设置 - 隐私与安全性”中允许运行。
+
+2. 📥 **添加订阅配置 (Profiles)**：
+   - 打开客户端，点击左侧导航栏的 **Profiles**，点击右上角 `+` 按钮。
+   - **Name**：输入配置名称（例如服务商名称）。
+   - **Type**：选择 **Remote**。
+   - **URL**：粘贴在第一步转换得到的 Sing-box 订阅链接。
+   - **Auto Update**：建议开启并设置更新间隔（如 1440 分钟/24小时）。
+   - 点击 **Save** 并等待节点下载完成。
+
+3. ⚡ **启用并授予网络权限**：
+   - TUN 模式需要系统网络扩展授权。
+   - 进入左侧 **Dashboard / Overview** 面板，在 Profile 区域选中刚才下载的配置。
+   - 打开连接主开关（或开启 TUN Mode / HTTP Proxy）。
+   - 首次启动时，macOS 会弹出系统提示：“Sing-box 想要添加 VPN 配置”，点击 **允许** 并输入 Mac 开机密码确认。
+
+<br>
+
+### 三、 节点选择与日常使用
+
+- 🔀 **分流模式设置**：Dashboard 顶部提供 **Rule（规则分流）**、**Global（全局模式）** 和 **Direct（直连）**。日常使用建议保持 **Rule**，境内流量直连、境外流量走代理。
+- 🌐 **切换节点与查看延迟**：点击左侧 **Groups**，可在各分流策略组（如 Proxy、Auto、节点选择）中自由切换目标地区或查看节点延迟。
+- 🔄 **开机无感自启**：进入 **Settings** 勾选 **Start at Login**，即可实现开机后台无感运行。
 
 ---
 

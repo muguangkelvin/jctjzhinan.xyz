@@ -647,7 +647,7 @@
         <span class="meta-item author-meta">&#128100; 作者：JC指南编辑部</span>
         <span class="meta-item date-meta">&#128197; 发布时间：2026-09-19</span>
         <span class="meta-item update-meta">&#128260; 最后核验：2026-09-19</span>
-        <span class="meta-item readtime-meta">&#9202; 预计阅读：3 分钟</span>
+        <span class="meta-item readtime-meta">&#9202; 预计阅读：5 分钟</span>
       </div>
       
       <div class="article-summary-box">
@@ -665,6 +665,9 @@
   <ul>
     <li><a href="#sing-box-极速入门订阅转换与全平台配置指引">Sing-box 极速入门：订阅转换与全平台配置指引</a>
       <ul>
+        <li><a href="#一-订阅转换生成-sing-box-格式配置">一、 订阅转换（生成 Sing-box 格式配置）</a></li>
+        <li><a href="#二-macos-客户端安装与导入">二、 macOS 客户端安装与导入</a></li>
+        <li><a href="#三-节点选择与日常使用">三、 节点选择与日常使用</a></li>
         <li><a href="#深入解析为什么选择稳定的-sing-box-订阅转换-对于网络体验至关重要">深入解析：为什么选择稳定的 Sing-box 订阅转换 对于网络体验至关重要？</a></li>
       </ul>
     </li>
@@ -683,7 +686,61 @@
 
     <div class="article-body">
       <h2 id="sing-box-极速入门订阅转换与全平台配置指引">Sing-box 极速入门：订阅转换与全平台配置指引</h2>
+<!-- raw HTML omitted -->
 <p><strong>新一代通用网络工具 Sing-box 从导入到规则修改教程。</strong> 在 2026 年的网络环境下，掌握【<strong>Sing-box 订阅转换</strong>】的相关知识与配置技能，能够显著提升海外连接的平稳度与安全性。</p>
+<!-- raw HTML omitted -->
+<h3 id="一-订阅转换生成-sing-box-格式配置">一、 订阅转换（生成 Sing-box 格式配置）</h3>
+<p>Sing-box 采用专属的 JSON 配置格式，传统机场提供的 Clash、V2Ray 或 SSR 链接通常无法直接使用，需先进行格式转换。</p>
+<ul>
+<li>🔗 <strong>获取通用订阅链接</strong>：登录机场后台，复制 Clash 或 V2Ray 订阅链接。</li>
+<li>🛠️ <strong>使用在线转换工具</strong>：打开主流的 Subconverter 转换前端（如各类公开转换网站或自建服务）。
+<ul>
+<li><strong>订阅链接</strong>：粘贴原机场链接。</li>
+<li><strong>客户端选择 (Target)</strong>：在生成格式下拉列表中选择 <strong>Sing-box</strong>。</li>
+<li><strong>高级设置</strong>：可按需勾选“UDP 支持”与“过滤非法节点”。</li>
+</ul>
+</li>
+<li>🚀 <strong>导出链接</strong>：点击“生成 Sing-box 订阅链接”并复制该 URL。</li>
+</ul>
+<!-- raw HTML omitted -->
+<h3 id="二-macos-客户端安装与导入">二、 macOS 客户端安装与导入</h3>
+<p>macOS 推荐直接使用 App Store 或 GitHub Releases 发布的图形客户端（Sing-box for macOS）。</p>
+<ol>
+<li>
+<p>💻 <strong>安装客户端</strong>：</p>
+<ul>
+<li>推荐通过 App Store 或官方 Release 下载。前往 Mac App Store 搜索 <strong>Sing-box</strong>，或从官方 GitHub 仓库下载 <code>.dmg</code> 文件拖拽至“应用程序”文件夹。</li>
+<li>首次打开需在 macOS“系统设置 - 隐私与安全性”中允许运行。</li>
+</ul>
+</li>
+<li>
+<p>📥 <strong>添加订阅配置 (Profiles)</strong>：</p>
+<ul>
+<li>打开客户端，点击左侧导航栏的 <strong>Profiles</strong>，点击右上角 <code>+</code> 按钮。</li>
+<li><strong>Name</strong>：输入配置名称（例如服务商名称）。</li>
+<li><strong>Type</strong>：选择 <strong>Remote</strong>。</li>
+<li><strong>URL</strong>：粘贴在第一步转换得到的 Sing-box 订阅链接。</li>
+<li><strong>Auto Update</strong>：建议开启并设置更新间隔（如 1440 分钟/24小时）。</li>
+<li>点击 <strong>Save</strong> 并等待节点下载完成。</li>
+</ul>
+</li>
+<li>
+<p>⚡ <strong>启用并授予网络权限</strong>：</p>
+<ul>
+<li>TUN 模式需要系统网络扩展授权。</li>
+<li>进入左侧 <strong>Dashboard / Overview</strong> 面板，在 Profile 区域选中刚才下载的配置。</li>
+<li>打开连接主开关（或开启 TUN Mode / HTTP Proxy）。</li>
+<li>首次启动时，macOS 会弹出系统提示：“Sing-box 想要添加 VPN 配置”，点击 <strong>允许</strong> 并输入 Mac 开机密码确认。</li>
+</ul>
+</li>
+</ol>
+<!-- raw HTML omitted -->
+<h3 id="三-节点选择与日常使用">三、 节点选择与日常使用</h3>
+<ul>
+<li>🔀 <strong>分流模式设置</strong>：Dashboard 顶部提供 <strong>Rule（规则分流）</strong>、<strong>Global（全局模式）</strong> 和 <strong>Direct（直连）</strong>。日常使用建议保持 <strong>Rule</strong>，境内流量直连、境外流量走代理。</li>
+<li>🌐 <strong>切换节点与查看延迟</strong>：点击左侧 <strong>Groups</strong>，可在各分流策略组（如 Proxy、Auto、节点选择）中自由切换目标地区或查看节点延迟。</li>
+<li>🔄 <strong>开机无感自启</strong>：进入 <strong>Settings</strong> 勾选 <strong>Start at Login</strong>，即可实现开机后台无感运行。</li>
+</ul>
 <hr>
 <h3 id="深入解析为什么选择稳定的-sing-box-订阅转换-对于网络体验至关重要">深入解析：为什么选择稳定的 Sing-box 订阅转换 对于网络体验至关重要？</h3>
 <p>在搭建和使用海外网络代理时，很多小白用户容易掉入“低价月抛”或“虚标带宽”的坑中。实际上，一个高质量的节点服务，其核心竞争力不在于宣传的“几百个节点”，而在于<strong>真正的公网中转质量与专线冗余</strong>。</p>
