@@ -99,7 +99,7 @@
               
               { title: "2026 AI 工具机场推荐：全平台兼容与住宅级 IP", url: "/scenarios/ai-airport-recommendations/", summary: "针对 OpenAI、Midjourney 与 Claude 的节点搭配选型。", section: "scenarios" },
               
-              { title: "2026 稳定机场挑选 5 大黄金维度", url: "/guide/2026-stable-airport-guide/", summary: "涵盖线路架构、晚高峰稳定性、平台兼容性与避坑指南。", section: "guide" },
+              { title: "2026 稳定机场选购指南：底层原理、梯队对比与避坑法则", url: "/guide/2026-stable-airport-guide/", summary: "在跨境办公、学术科研、影音娱乐与 AI 工具频繁调用的场景下，从 4 个核心指标、三大服务梯队到 4 项避坑法则的全景选型指南。", section: "guide" },
               
               { title: "2026年新手第一次选机场应该注意什么？", url: "/faq/faq-001/", summary: "针对选型避坑的 5 大核心指标解析与新手选机场指南。", section: "faq" },
               
@@ -665,6 +665,211 @@
   </div>
 </section>
 
+
+  
+  <section class="home-section guide-intro-section" id="selection-guide">
+    <div class="guide-intro-card">
+      <div class="guide-intro-header">
+        <span class="guide-badge">📖 2026 稳定机场选型指南</span>
+        <h2 class="guide-intro-title">选购机场先看这：原理、梯队对比与防坑法则</h2>
+        <p class="guide-intro-subtitle">
+          在跨境办公、学术科研、影音娱乐与 AI 工具频繁调用的场景下，一条高可用、低丢包的网络线路是基础设施。当前各类节点服务商（俗称“机场”）层出不穷，很多新手因缺乏甄别标准，极易踩入虚标带宽、高峰期断流甚至商家跑路的陷阱。本指南结合实测数据与线路底层逻辑，从线路原理、梯队推荐、避坑法则到客户端适配，提供一份即用型选型参考。
+        </p>
+      </div>
+
+      <div class="guide-content-body">
+        
+        <div class="guide-block">
+          <h3 class="guide-block-title">一、 选购机场先看这：4 个底层核心指标</h3>
+          <div class="indicators-grid">
+            <div class="indicator-card">
+              <div class="indicator-icon">🚀</div>
+              <div class="indicator-content">
+                <h4>1. 线路类型（决定高峰期体验）</h4>
+                <ul>
+                  <li><strong>直连 / 公网中转</strong>：成本低廉，公网波动直接传导至客户端，晚高峰丢包与跳 Ping 较明显，适合作低预算备用。</li>
+                  <li><strong>BGP 隧道 / 专线（IEPL / IPLC）</strong>：流量经过内网专线或跨境物理专网传输，不直接暴露在公网环境下，晚高峰延迟稳定且抗封锁能力强，是主力环境的首选。</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="indicator-card">
+              <div class="indicator-icon">🌐</div>
+              <div class="indicator-content">
+                <h4>2. 落地 IP 质量（决定服务解锁）</h4>
+                <p>能否解锁 Netflix、Disney+、YouTube Premium 等流媒体；是否采用原生 IP 或纯净 IP，避免在登录 ChatGPT、Claude、X (Twitter) 时频繁跳验证码或遭遇 IP 风控封禁。</p>
+              </div>
+            </div>
+
+            <div class="indicator-card">
+              <div class="indicator-icon">🔑</div>
+              <div class="indicator-content">
+                <h4>3. 协议支持</h4>
+                <p>目前主流支持 Shadowsocks、Trojan、Vmess/Vless 及新一代高抗封锁协议（如 Hysteria 2、AnyTLS）。</p>
+              </div>
+            </div>
+
+            <div class="indicator-card">
+              <div class="indicator-icon">🛡️</div>
+              <div class="indicator-content">
+                <h4>4. 冗余容灾能力</h4>
+                <p>优质服务商通常配置多入口（深港、沪日、京德等）与多出口自动故障转移（Failover），确保单点节点宕机时毫秒级切换。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="guide-block">
+          <h3 class="guide-block-title">二、 梯队服务横向对比与选购方案</h3>
+          <div class="table-responsive-wrapper">
+            <table class="comparison-table guide-tier-table">
+              <thead>
+                <tr>
+                  <th>梯度分类</th>
+                  <th>线路架构与特点</th>
+                  <th>适配场景</th>
+                  <th>推荐参考品牌/类型</th>
+                  <th>建议预算参考</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="badge badge-tier-1">第一梯队</span><br><strong>高端商务与极致稳定</strong></td>
+                  <td>全线 IEPL/IPLC 专线、多入口负载均衡、原生/住宅 IP 覆盖广</td>
+                  <td>外贸办公、海外店铺运营、学术文献下载、企业协同</td>
+                  <td>
+                    <strong><a href="/providers/lingdong-cloud/">灵动云</a> (IEPL专线)</strong><br>
+                    WgetCloud、TAG、Nexitally
+                  </td>
+                  <td><span class="price-highlight">￥50 - ￥120 / 月</span></td>
+                </tr>
+                <tr>
+                  <td><span class="badge badge-tier-2">第二梯队</span><br><strong>中坚主力与高性价比</strong></td>
+                  <td>优质 BGP 中转混合 IEPL 专线，速度与带宽充足</td>
+                  <td>4K/8K 视频串流、日常社媒、普通开发与检索</td>
+                  <td>
+                    <strong><a href="/providers/twilight/">暮光网络</a> (4K/AI专线)</strong><br>
+                    <strong><a href="/providers/breezenet/">微风网络</a></strong><br>
+                    SSRDOG、BoostNet
+                  </td>
+                  <td><span class="price-highlight">￥15 - ￥35 / 月</span></td>
+                </tr>
+                <tr>
+                  <td><span class="badge badge-tier-3">第三梯队</span><br><strong>轻度容灾与备用按量</strong></td>
+                  <td>按量计费、不限到期时间或低门槛月付</td>
+                  <td>临时应急、防止主力线路维护失联、极低频查资料</td>
+                  <td>
+                    <strong><a href="/providers/flycat-cloud/">飞猫云</a> (按量/年付)</strong><br>
+                    魔戒 (按量)、山水云 (按量)
+                  </td>
+                  <td><span class="price-highlight">￥10 - ￥30 / 次</span><br><small>(不限时)</small></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="table-footer-note">
+            <p>💡 <em>博主提示：可在下方精选榜单与独家优惠码专区中查看各品牌详细参数与专属折扣码。</em></p>
+          </div>
+        </div>
+
+        
+        <div class="guide-block">
+          <h3 class="guide-block-title">三、 新手选购防坑四项铁律</h3>
+          <div class="rules-grid">
+            <div class="rule-card">
+              <span class="rule-num">01</span>
+              <div class="rule-content">
+                <h4>首选月付或季付，拒绝盲目长期锁死</h4>
+                <p>无论官方承诺多稳定，初次使用必须选择短期周期测试晚高峰（20:00 - 23:00）的真实吞吐率和丢包表现，满意后再考虑季度或半年付。</p>
+              </div>
+            </div>
+
+            <div class="rule-card">
+              <span class="rule-num">02</span>
+              <div class="rule-content">
+                <h4>践行“1 主力 + 1 备用”组合</h4>
+                <p>网络环境存在不可抗力，即便顶级线路也有维护窗口。推荐配置“一条高品质专线（按月包量）+ 一条按量付费不限时的小额备用节点”互为容灾。</p>
+              </div>
+            </div>
+
+            <div class="rule-card">
+              <span class="rule-num">03</span>
+              <div class="rule-content">
+                <h4>警惕低价“无限流量”</h4>
+                <p>跨境带宽与专线成本属硬性支出，极低价格宣称不限流量往往伴随严重超卖，导致晚高峰大面积断流。</p>
+              </div>
+            </div>
+
+            <div class="rule-card">
+              <span class="rule-num">04</span>
+              <div class="rule-content">
+                <h4>认准通用订阅生态</h4>
+                <p>优选提供标准订阅（支持 Clash、Sing-box、Surge、Shadowrocket 导入）的商家，避免过度依赖闭源魔改客户端，防止数据隐私风险或客户端停更导致服务失效。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="guide-block">
+          <h3 class="guide-block-title">四、 常见客户端搭配推荐</h3>
+          <div class="clients-grid">
+            <div class="client-platform-card">
+              <div class="client-platform-header">💻 Windows / macOS</div>
+              <div class="client-tags">
+                <span class="client-tag">Clash Verge Rev</span>
+                <span class="client-tag">Mihomo Party</span>
+                <span class="client-tag">Sing-box</span>
+                <span class="client-tag">Surge (Mac 专享)</span>
+              </div>
+            </div>
+
+            <div class="client-platform-card">
+              <div class="client-platform-header">📱 iOS / iPadOS</div>
+              <div class="client-tags">
+                <span class="client-tag">Shadowrocket (小火箭)</span>
+                <span class="client-tag">Stash</span>
+                <span class="client-tag">Surge</span>
+                <span class="client-tag">Quantumult X</span>
+                <span class="client-tag">Loon</span>
+              </div>
+            </div>
+
+            <div class="client-platform-card">
+              <div class="client-platform-header">🤖 Android</div>
+              <div class="client-tags">
+                <span class="client-tag">Clash Meta for Android</span>
+                <span class="client-tag">Flclash</span>
+                <span class="client-tag">Surfboard</span>
+                <span class="client-tag">NekoBox</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="guide-block">
+          <h3 class="guide-block-title">五、 常见问题解答（FAQ）</h3>
+          <div class="guide-faq-accordion">
+            <details class="guide-faq-item" open>
+              <summary class="guide-faq-question">Q: 为什么节点测速 Ping 很低，但看视频依然卡顿？</summary>
+              <div class="guide-faq-answer">
+                <p>A: Ping 值仅反映 ICMP 单包往返延迟，不代表带宽吞吐上限与传输丢包率。视频卡顿通常是由于晚高峰单线程带宽受限或链路存在持续丢包。</p>
+              </div>
+            </details>
+
+            <details class="guide-faq-item">
+              <summary class="guide-faq-question">Q: 访问 ChatGPT / Claude 频繁提示 Access Denied 或报错怎么办？</summary>
+              <div class="guide-faq-answer">
+                <p>A: 这是目标平台机房风控检测到出口 IP 滥用度过高所致。建议切换到标注为“原生 IP”或带有专门 AI 标记的节点，并配合浏览器无痕窗口使用。</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   
   <section class="home-section primary-recommendations-section" id="top-recommendations">
@@ -1895,13 +2100,13 @@
     <time class="card-date" datetime="2026-09-19">2026-09-19</time>
   </div>
   <h3 class="article-card-title">
-    <a href="/guide/2026-stable-airport-guide/">2026 稳定机场挑选 5 大黄金维度</a>
+    <a href="/guide/2026-stable-airport-guide/">2026 稳定机场选购指南：底层原理、梯队对比与避坑法则</a>
   </h3>
   <p class="article-card-summary">
-    涵盖线路架构、晚高峰稳定性、平台兼容性与避坑指南。
+    在跨境办公、学术科研、影音娱乐与 AI 工具频繁调用的场景下，从 4 个核心指标、三大服务梯队到 4 项避坑法则的全景选型指南。
   </p>
   <div class="article-card-footer">
-    <span class="read-time">&#9202; 预计阅读 7 分钟</span>
+    <span class="read-time">&#9202; 预计阅读 5 分钟</span>
     <a href="/guide/2026-stable-airport-guide/" class="read-more-link">阅读全文 &rarr;</a>
   </div>
 </article>
